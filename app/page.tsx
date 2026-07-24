@@ -9,7 +9,6 @@ import {
     groupGoals,
     incrementGoal,
     isTaskDone,
-    resetModel,
     setActivityKPH,
 } from "@/lib/model";
 import { seedModel } from "@/lib/seed";
@@ -44,7 +43,11 @@ export default function Page() {
 
     const handleReset = () => {
         clearSaved(); // remove persisted key → clean slate on reload
-        setModel((m) => resetModel(m)); // the save effect then re-writes zeros
+        // Rebuild fresh from source rather than zeroing the current model —
+        // resetModel() only zeros goal progress, it has no concept of a
+        // "default" KPH per activity. buildModel() already encodes both
+        // (zero progress, KPH 1) since that's what a fresh model starts as.
+        setModel(buildModel());
     };
 
     const q = query.trim().toLowerCase();

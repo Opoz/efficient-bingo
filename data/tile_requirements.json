@@ -438,7 +438,7 @@
                         "quantity": 1
                     },
                     {
-                        "itemName": "yami",
+                        "itemName": "Yami",
                         "itemId": null,
                         "quantity": 1
                     }
@@ -847,7 +847,7 @@
                 "quantity": 5,
                 "from": [
                     {
-                        "itemName": "immaculate mole skins",
+                        "itemName": "Immaculate mole skins",
                         "itemId": null,
                         "quantity": 1
                     }
