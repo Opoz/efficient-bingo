@@ -3,7 +3,9 @@
     "version": "0.1.0",
     "private": true,
     "scripts": {
+        "predev": "npm run transform:drops",
         "dev": "next dev",
+        "prebuild": "npm run transform:drops",
         "build": "next build",
         "start": "next start",
         "transform:drops": "node --experimental-strip-types lib/transformDrops.ts",
