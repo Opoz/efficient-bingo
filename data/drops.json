@@ -3404,17 +3404,17 @@
         {
             "name": "Noxious pommel",
             "quantity": "1",
-            "rarity": "1/200"
+            "rarity": "1/600"
         },
         {
             "name": "Noxious point",
             "quantity": "1",
-            "rarity": "1/200"
+            "rarity": "1/600"
         },
         {
             "name": "Noxious blade",
             "quantity": "1",
-            "rarity": "1/200"
+            "rarity": "1/600"
         },
         {
             "name": "Araxyte fang",
@@ -83294,9 +83294,27 @@
     ],
     "Hallowed Sepulchre Floor 5": [
         {
-            "name": "Grand Hallowed Coffin",
+            "name": "Ring of Endurance",
             "quantity": "1",
             "rarity": "1/200"
+        }
+    ],
+    "Corrupted Gauntlet": [
+        {
+            "name": "Enhanced Crystal Weapon Seed",
+            "quantity": "1",
+            "rarity": "1/400"
+        },
+        {
+            "name": "Crystal Weapon Seed",
+            "quantity": "1",
+            "rarity": "1/50"
+        },
+        { "name": "Crystal Armour Seed", "quantity": "1", "rarity": "1/50" },
+        {
+            "name": "Youngllef",
+            "quantity": "1",
+            "rarity": "1/800"
         }
     ]
 }

@@ -67,12 +67,12 @@
         "requirements": {
             "any_of": [
                 {
-                    "itemName": "armor seed",
+                    "itemName": "Crystal Armour Seed",
                     "itemId": null,
                     "quantity": 1
                 },
                 {
-                    "itemName": "enhanced weapon seed",
+                    "itemName": "Enhanced Crystal Weapon Seed",
                     "itemId": null,
                     "quantity": 1
                 }
