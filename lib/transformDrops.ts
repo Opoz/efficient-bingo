@@ -73,6 +73,21 @@ export function parseRarity(raw: string): ParsedRarity | undefined {
 // it has any OTHER matching drop, it just won't list this one.
 const EXCLUDED_ITEMS = new Set(["curved bone"].map(itemSlug));
 
+// Some items are generic/shared-table drops that happen to also appear on a
+// specific boss's own unique table — which is what a tile like "3 Zulrah
+// Uniques" actually means (the onyx FROM Zulrah, not an onyx from anywhere).
+// Matching by item name alone can't tell these apart, so list specific
+// (source, item) pairs to exclude here; the SAME item name from the
+// intended source (or any other unlisted one) still matches normally.
+const EXCLUDED_SOURCE_ITEMS = new Set(
+    (
+        [
+            ["Zalcano", "Uncut onyx"],
+            ["Skotizo", "Uncut onyx"],
+        ] as const
+    ).map(([source, item]) => `${itemSlug(source)}|${itemSlug(item)}`),
+);
+
 // Appends "-2", "-3", ... on collision so two differently-named sources that
 // happen to slug identically don't clobber each other in the output.
 function uniqueId(base: string, used: Map<string, number>): string {
@@ -110,6 +125,9 @@ function buildActivities(): { activities: Activity[]; skipped: SkippedDrop[] } {
         for (const drop of drops) {
             const slug = itemSlug(drop.name);
             if (EXCLUDED_ITEMS.has(slug)) continue;
+            if (EXCLUDED_SOURCE_ITEMS.has(`${itemSlug(source)}|${slug}`)) {
+                continue;
+            }
 
             const goalIds = itemGoalIndex.get(slug);
             if (!goalIds) continue; // no tile tracks this item
