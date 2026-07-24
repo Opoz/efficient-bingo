@@ -28,7 +28,6 @@ const DROPS_PATH = path.join(__dirname, "../data/drops.json");
 const OUT_PATH = path.join(__dirname, "../data/drops_formatted.json");
 const KPH_PATH = path.join(__dirname, "../data/kph.json");
 
-
 interface JsonDrop {
     name: string;
     quantity: string;
@@ -96,9 +95,10 @@ function buildActivities(): { activities: Activity[]; skipped: SkippedDrop[] } {
         fs.readFileSync(DROPS_PATH, "utf8"),
     ) as JsonDrops;
 
-    const kphData = JSON.parse(
-        fs.readFileSync(KPH_PATH, "utf8"),
-    ) as Record<string, number>;
+    const kphData = JSON.parse(fs.readFileSync(KPH_PATH, "utf8")) as Record<
+        string,
+        number
+    >;
 
     const activities: Activity[] = [];
     const skipped: SkippedDrop[] = [];
@@ -120,11 +120,20 @@ function buildActivities(): { activities: Activity[]; skipped: SkippedDrop[] } {
                 continue;
             }
 
+            // A single drop feeding >1 goal is the same physical item
+            // credited to multiple tiles (e.g. a hilt counting toward both
+            // a boss-unique tile and a full-set tile) — tag these edges so
+            // activityPointsPerHour takes the best one instead of summing
+            // all of them (only tag when genuinely ambiguous; a drop
+            // feeding just one goal needs no grouping).
+            const dropGroup = goalIds.length > 1 ? slug : undefined;
+
             for (const goalId of goalIds) {
                 edges.push({
                     goalId,
                     rate: parsed.rate,
                     rateLabel: parsed.label,
+                    dropGroup,
                 });
             }
         }

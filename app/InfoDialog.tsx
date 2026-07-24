@@ -46,20 +46,20 @@ const ROWS: { label: string; value: string; caption: string }[] = [
     },
     {
         label: "Your KPH",
-        value: "× 30",
+        value: "× 32",
         caption:
             "Kills per hour — the one input you control, set on the activity card.",
     },
     {
         label: "Raw per hour",
-        value: "≈ 0.08",
+        value: "≈ 0.09",
         caption: "rate × KPH, before any capping.",
     },
     {
         label: "Capped at remaining",
-        value: "min(0.08, 3) = 0.08",
+        value: "min(0.09, 3) = 0.09",
         caption:
-            "Never counts more than what's still needed to finish the goal — anything past that is wasted, not banked. Here 0.08 is nowhere near the 3 needed, so nothing gets capped.",
+            "Never counts more than what's still needed to finish the goal — anything past that is wasted, not banked. Here 0.09 is nowhere near the 3 needed, so nothing gets capped.",
     },
     {
         label: "Points per unit",
@@ -73,7 +73,10 @@ const ROWS: { label: string; value: string; caption: string }[] = [
 // walkthrough above is just ONE of them (Vestige roll). The activity card's
 // "Points / hour" is the sum of every edge's own contribution × points-per-
 // unit, computed exactly the same way per edge. Numbers below are the real
-// output of activityPointsPerHour() at 30 KPH, not hand-calculated.
+// output of activityPointsPerHour() at 32 KPH, not hand-calculated. (None of
+// Vardorvis's drops are shared between two tiles, so a plain sum is correct
+// here — see the "Shared Drops Example" button for the case where a single
+// drop feeds two tiles and the total takes the max instead of the sum.)
 const EDGES: {
     item: string;
     tile: string;
@@ -86,21 +89,21 @@ const EDGES: {
         tile: "3 DT2 Gold Rings",
         points: 4,
         rate: "1/363",
-        line: "0.08 × 1.33 = 0.11",
+        line: "0.09 × 1.33 = 0.12",
     },
     {
         item: "Chromium Ingot",
         tile: "Chromium Ingot",
         points: 1,
         rate: "3/1088",
-        line: "0.08 × 1.00 = 0.08",
+        line: "0.09 × 1.00 = 0.09",
     },
     {
         item: "Executioner's axe head",
         tile: "Any SRA Axe Piece",
         points: 4,
         rate: "1/1088",
-        line: "0.03 × 4.00 = 0.11",
+        line: "0.03 × 4.00 = 0.12",
     },
     {
         item: "Virtus mask",
@@ -153,7 +156,7 @@ export function InfoDialog() {
                     <p className="text-rs-brown-light">
                         Worked example:{" "}
                         <span className="text-rs-gold">Vardorvis</span> fought
-                        at <span className="text-rs-gold">30 KPH</span>, feeding
+                        at <span className="text-rs-gold">32 KPH</span>, feeding
                         the{" "}
                         <span className="text-rs-gold">3 DT2 Gold Rings</span>{" "}
                         tile (4 points, needs 3 vestige rolls).
@@ -179,7 +182,7 @@ export function InfoDialog() {
                             This drop's contribution
                         </span>
                         <span className="text-xl font-bold text-rs-gold">
-                            0.08 × 1.33 ≈ 0.11
+                            0.09 × 1.33 ≈ 0.12
                         </span>
                     </div>
 
@@ -192,7 +195,11 @@ export function InfoDialog() {
                             <span className="text-rs-gold">Points / hour</span>{" "}
                             is every drop's contribution × points-per-unit,
                             computed independently exactly like above, then{" "}
-                            <span className="text-rs-gold">summed</span>.
+                            <span className="text-rs-gold">summed</span> —{" "}
+                            <span className="text-rs-gold">unless</span> two
+                            edges are the same physical drop feeding two
+                            different tiles, in which case only the better one
+                            counts (see the Shared Drops example).
                         </p>
                         <div className="grid grid-cols-[1fr_70px_100px_150px] gap-x-3 gap-y-1.5 text-xs">
                             <div className="text-rs-brown-light uppercase">
@@ -243,7 +250,7 @@ export function InfoDialog() {
                                 Points / hour (this activity)
                             </span>
                             <span className="text-xl font-bold text-rs-gold">
-                                0.11+0.08+0.11+0.05+0.05+0.05+0.07 ≈ 0.51
+                                0.12+0.09+0.12+0.05+0.05+0.05+0.07 ≈ 0.55
                             </span>
                         </div>
                     </div>

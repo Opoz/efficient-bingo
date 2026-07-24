@@ -92,6 +92,11 @@ export interface ActivityEdge {
     goalId: string;
     rate: number; // contribution per unit time at KPH 1
     rateLabel?: string; // human-readable source of `rate`, e.g. "1/128" or "Always"
+    // Edges sharing this id come from the same physical drop credited to
+    // multiple goals (e.g. an Ancient hilt feeding both Nex Unique and Full
+    // Godsword) — only one can actually be claimed per drop, so
+    // activityPointsPerHour takes the best of the group instead of summing.
+    dropGroup?: string;
 }
 
 export interface Activity {
@@ -236,17 +241,37 @@ export function goalPointsPerUnit(model: Model, goalId: string): number {
 
 // Points per hour of an activity =
 //   Σ over goals it feeds of min(rate*KPH, effectiveRemaining) * pointsPerUnit
+// EXCEPT edges sharing a dropGroup (same physical drop, multiple tiles it
+// could be credited to) — those are mutually exclusive, so only the best
+// (max) edge in the group counts, not the sum of all of them. Summing would
+// value a single item as if it simultaneously scored on every tile it could
+// possibly complete, which overstates the activity's real expected value.
 export function activityPointsPerHour(
     model: Model,
     activity: Activity,
 ): number {
     let total = 0;
+    const groupBest = new Map<string, number>(); // dropGroup -> best value counted so far
+
     for (const edge of activity.edges) {
         const found = findGoal(model, edge.goalId);
         if (!found) continue;
         const contribution = effectiveContribution(model, activity, edge);
-        total += contribution * goalPointsPerUnit(model, edge.goalId);
+        const value = contribution * goalPointsPerUnit(model, edge.goalId);
+
+        if (edge.dropGroup === undefined) {
+            total += value;
+            continue;
+        }
+
+        const prevBest = groupBest.get(edge.dropGroup) ?? 0;
+        if (value > prevBest) {
+            total += value - prevBest; // swap in the new max, don't double-add
+            groupBest.set(edge.dropGroup, value);
+        }
+        // value <= prevBest: this edge isn't the best option in its group, contributes nothing more
     }
+
     return total;
 }
 

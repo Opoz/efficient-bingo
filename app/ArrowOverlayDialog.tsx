@@ -37,7 +37,10 @@ const ARROW_HEAD_X = CARD_WIDTH + 4; // arrowhead lands just past the card's rig
 // which tile to credit it to by clicking +1 on that row specifically (the
 // other row's +1 stays untouched). The two rows are worth wildly different
 // points because of how each tile is structured, which is exactly why the
-// choice matters.
+// choice matters — and it's also why the card's Points/hour total takes the
+// MAX of the two rows (0.12), not their sum (0.14): you can only ever claim
+// one of them per actual hilt drop, so activityPointsPerHour() treats
+// same-drop edges as mutually exclusive instead of double-counting them.
 // Kept deliberately short and forced to whitespace-nowrap below — long
 // wrapped captions at fixed row spacing is exactly what caused the previous
 // version's text to overlap between rows.
@@ -45,7 +48,7 @@ const CALLOUTS = [
     { y: kphRowY, text: "Same 10 KPH feeds every row below." },
     { y: edgeRow1Y, text: "Pool of 6 — any ONE finishes it → 6 pts." },
     { y: edgeRow2Y, text: "1 of 4 AND'd pieces → only 1 pt." },
-    { y: footerRowY, text: "Real total, all 8 drops (2 shown)." },
+    { y: footerRowY, text: "Total takes max of the 2 hilt rows, not sum." },
 ];
 
 export function ArrowOverlayDialog() {
@@ -130,7 +133,7 @@ export function ArrowOverlayDialog() {
                                     Points / hour
                                 </span>
                                 <span className="text-lg font-bold text-rs-gold">
-                                    1.33
+                                    1.19
                                 </span>
                             </div>
                         </div>

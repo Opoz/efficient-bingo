@@ -7,6 +7,7 @@ import {
     effectiveContribution,
     effectiveRemaining,
     findGoal,
+    goalPointsPerUnit,
 } from "@/lib/model";
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
@@ -99,6 +100,8 @@ export function ActivityTile({
                         const eff = round(
                             effectiveContribution(model, activity, edge),
                         );
+                        const perUnit = goalPointsPerUnit(model, edge.goalId);
+                        const edgePoints = round(eff * perUnit);
                         return (
                             // goalId alone isn't unique here — the same item can feed more
                             // than one tile (e.g. a hilt counting toward both a boss-unique
@@ -120,6 +123,12 @@ export function ActivityTile({
                                         <span className="ml-1 text-[10px] text-muted-foreground">
                                             = {eff}
                                         </span>
+                                    </span>
+                                </div>
+                                <div className="flex items-center justify-end text-[10px] tabular-nums text-muted-foreground">
+                                    {eff} × {round(perUnit)} pts
+                                    <span className="ml-1 font-semibold text-osrs-yellow">
+                                        = {edgePoints} pts/hr
                                     </span>
                                 </div>
                                 <div className="mt-1 flex items-center gap-1.5">
