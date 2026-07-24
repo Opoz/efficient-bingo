@@ -115,7 +115,7 @@ export default function Page() {
             <header className="z-20 flex flex-shrink-0 items-center gap-3 border-b border-border bg-osrs-dark-brown/60 px-4 py-2.5 backdrop-blur">
                 <div className="flex flex-1 items-center">
                     <span className="whitespace-nowrap text-sm font-bold tracking-wide text-osrs-yellow">
-                        Bingo Estimator
+                        Efficient Bingo
                     </span>
                 </div>
                 <Input
