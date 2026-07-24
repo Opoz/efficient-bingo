@@ -83446,5 +83446,12 @@
             "quantity": "1",
             "rarity": "1/276.84"
         }
+    ],
+    "Hallowed Sepulchre Floor 5": [
+        {
+            "name": "Grand Hallowed Coffin",
+            "quantity": "1",
+            "rarity": "1/200"
+        }
     ]
 }
