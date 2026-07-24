@@ -1,6 +1,5 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+@config "../tailwind.config.ts";
 
 @layer base {
     :root {
@@ -47,7 +46,40 @@
         --input: 60 2% 27%;
         --ring: 41 82% 50%; /* gold focus ring */
 
-        --radius: 0.5rem;
+        /* runescapecn's hard-edge OSRS look: zero rounding everywhere. */
+        --radius: 0px;
+    }
+}
+
+/* runescapecn utility classes — copied verbatim from its own globals.css
+   (rs-border-inset), except rs-stone-bg's background-color reads OUR --card
+   token instead of theirs, so the stone texture overlay tints with our
+   existing warm-brown panel color rather than replacing it. */
+@layer utilities {
+    .rs-border-inset {
+        border: 2px solid black;
+        box-shadow:
+            inset 1px 1px 0 rgba(0, 0, 0, 0.7),
+            inset -1px -1px 0 rgba(255, 255, 255, 0.05);
+    }
+
+    .rs-stone-bg {
+        background-color: hsl(var(--card));
+        background-image:
+            repeating-linear-gradient(
+                0deg,
+                transparent,
+                transparent 2px,
+                rgba(0, 0, 0, 0.03) 2px,
+                rgba(0, 0, 0, 0.03) 4px
+            ),
+            repeating-linear-gradient(
+                90deg,
+                transparent,
+                transparent 2px,
+                rgba(0, 0, 0, 0.03) 2px,
+                rgba(0, 0, 0, 0.03) 4px
+            );
     }
 }
 
@@ -63,7 +95,7 @@
         /* Nudges every rem-based Tailwind text size up proportionally — the
        runescape font reads a bit small/thin next to the previous sans at
        the same nominal size. */
-        font-size: 13 0%;
+        font-size: 130%;
     }
     body {
         @apply bg-background text-foreground;

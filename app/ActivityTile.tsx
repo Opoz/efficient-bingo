@@ -60,11 +60,11 @@ export function ActivityTile({
 
     return (
         // Activities: cooler neutral left border to distinguish from tiles.
-        // Fixed height + internal scroll — every card is the same height
-        // regardless of edge count, so the grid never has to reconcile
-        // mismatched card heights. Only the edges list scrolls; the KPH
-        // input and the points/hour summary stay put.
-        <Card className="flex h-[400px] w-full flex-col border-l-4 border-l-osrs-border">
+        // Capped height + internal scroll, not fixed — a card only grows as
+        // tall as its own content needs (up to the cap), so a grid row where
+        // nothing is near the cap stays short. Only the edges list scrolls;
+        // the KPH input and the points/hour summary stay put.
+        <Card className="flex max-h-[800px] w-full flex-col border-l-4 border-l-osrs-border">
             <CardHeader className="shrink-0 pb-3">
                 <div className="text-[10px] uppercase tracking-widest text-muted-foreground">
                     Activity
@@ -80,7 +80,7 @@ export function ActivityTile({
                         type="number"
                         step={1}
                         min={0}
-                        className="h-8 w-[80px] text-xs tabular-nums"
+                        className="h-8 w-[80px] text-xs tabular-nums [appearance:textfield] [&::-webkit-inner-spin-button]:appearance-none [&::-webkit-outer-spin-button]:appearance-none"
                         value={KPHText}
                         onChange={(e) => handleKPHInput(e.target.value)}
                         onBlur={handleKPHBlur}

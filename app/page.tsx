@@ -18,6 +18,12 @@ import { TileTile } from "./TileTile";
 import { ActivityTile } from "./ActivityTile";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
+import {
+    Tooltip,
+    TooltipContent,
+    TooltipProvider,
+    TooltipTrigger,
+} from "@/components/ui/tooltip";
 import { buildModel } from "@/lib/buildModel";
 import { cn } from "@/lib/utils";
 
@@ -115,9 +121,22 @@ export default function Page() {
                     value={query}
                     onChange={(e) => setQuery(e.target.value)}
                 />
-                <Button size="sm" className="ml-auto" onClick={handleReset}>
-                    Reset
-                </Button>
+                <TooltipProvider>
+                    <Tooltip>
+                        <TooltipTrigger asChild>
+                            <Button
+                                size="sm"
+                                className="ml-auto"
+                                onClick={handleReset}
+                            >
+                                Reset
+                            </Button>
+                        </TooltipTrigger>
+                        <TooltipContent>
+                            Clears all progress and KPH back to defaults
+                        </TooltipContent>
+                    </Tooltip>
+                </TooltipProvider>
             </header>
 
             <div

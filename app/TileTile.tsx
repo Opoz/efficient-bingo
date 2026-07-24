@@ -34,10 +34,12 @@ export function TileTile({
     const done = istileDone(tile);
     return (
         // tiles: gold-tinted left border to distinguish from activities.
-        // Fixed height + internal scroll — every card is the same height
-        // regardless of content, so the surrounding grid never has to
-        // reconcile mismatched card heights.
-        <Card className="flex h-[400px] w-full flex-col border-l-4 border-l-osrs-gold">
+        // Capped height + internal scroll, not fixed — a card only grows as
+        // tall as its own content needs (up to the cap), so a grid row where
+        // nothing is near the cap stays short. Rows only stretch when one of
+        // their cards actually needs the height (that's inherent to grid row
+        // tracks: a row is always as tall as its tallest member).
+        <Card className="flex max-h-[800px] w-full flex-col border-l-4 border-l-osrs-gold">
             <CardHeader className="shrink-0 pb-3">
                 <div className="flex items-start justify-between gap-2">
                     <div>
@@ -51,7 +53,7 @@ export function TileTile({
                     {done ? (
                         <Badge variant="success">DONE</Badge>
                     ) : (
-                        <Badge variant="gold">
+                        <Badge variant="default">
                             {tile.points} point{tile.points === 1 ? "" : "s"}
                         </Badge>
                     )}
@@ -262,7 +264,12 @@ function PoolBlock({
                             {round(total)}/{group.target}
                         </span>
                     </div>
-                    <Progress points={pct} complete={satisfied} />
+                    <Progress
+                        value={pct}
+                        max={100}
+                        label=""
+                        variant={satisfied ? "default" : "orange"}
+                    />
                 </>
             )}
             <div className={showCombined ? "mt-2.5" : undefined}>
@@ -341,7 +348,12 @@ function SubGroupBlock({
                                 {round(total)}/{group.target}
                             </span>
                         </div>
-                        <Progress points={pct} complete={satisfied} />
+                        <Progress
+                            value={pct}
+                            max={100}
+                            label=""
+                            variant={satisfied ? "default" : "orange"}
+                        />
                     </>
                 )}
                 <div className={showCombined ? "mt-2.5" : undefined}>
@@ -424,7 +436,7 @@ function GroupHeader({
             <span className="text-[11px] font-semibold tracking-wide text-osrs-gold">
                 {label}
             </span>
-            {satisfied && <Badge variant="success">✓ satisfied</Badge>}
+            {satisfied && <Badge variant="success">✓ completed</Badge>}
         </div>
     );
 }
@@ -489,7 +501,12 @@ function GoalRow({
                     </span>
                 )}
             </div>
-            <Progress points={pct} complete={satisfied} />
+            <Progress
+                value={pct}
+                max={100}
+                label=""
+                variant={satisfied ? "default" : "orange"}
+            />
         </div>
     );
 }

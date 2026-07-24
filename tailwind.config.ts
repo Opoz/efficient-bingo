@@ -1,7 +1,7 @@
 import type { Config } from "tailwindcss";
 
 const config: Config = {
-    darkMode: ["class"],
+    darkMode: "class",
     content: [
         "./app/**/*.{ts,tsx}",
         "./components/**/*.{ts,tsx}",
@@ -11,6 +11,13 @@ const config: Config = {
         extend: {
             fontFamily: {
                 osrs: ["var(--font-runescape)", "Arial", "sans-serif"],
+                // runescapecn component fonts (Button/Card/Dialog/etc. reference
+                // these directly via font-[family-name:var(--font-rs*)]) — kept
+                // here too so they're also usable as plain `font-rs*` utilities.
+                rs: ["var(--font-rs)", "monospace"],
+                "rs-bold": ["var(--font-rs-bold)", "monospace"],
+                "rs-quill": ["var(--font-rs-quill)", "serif"],
+                "rs-quill-caps": ["var(--font-rs-quill-caps)", "serif"],
             },
             colors: {
                 // OSRS raw palette
@@ -28,6 +35,19 @@ const config: Config = {
                     border: "#474745",
                     panel: "#46433A",
                 },
+                // runescapecn component palette — the imported Button/Card/Badge/
+                // Progress/Input/Dialog/Tooltip source styles itself with these
+                // tokens directly (not the shadcn semantic --background/--primary
+                // tokens below), so adding them doesn't touch our existing colors.
+                "rs-gold": "#C9A961",
+                "rs-orange": "#FF981F",
+                "rs-brown-dark": "#1a1a1a",
+                "rs-brown-medium": "#2a2a2a",
+                "rs-brown-light": "#7a7a7a",
+                "rs-green": "#00FF00",
+                "rs-red": "#FF0000",
+                "rs-yellow": "#FFEB3B",
+                "rs-cyan": "#00FFFF",
                 // shadcn semantic tokens (driven by CSS variables)
                 background: "hsl(var(--background))",
                 foreground: "hsl(var(--foreground))",
