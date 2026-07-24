@@ -1,83 +1,83 @@
 {
     "2_blood_shards": {
-      "tileName": "2 Blood Shards",
-      "points": 2,
-      "requirements": {
-        "count": {
-          "quantity": 2,
-          "from": [
-            {
-              "itemName": "blood shard",
-              "itemId": null,
-              "quantity": 1
+        "tileName": "2 Blood Shards",
+        "points": 2,
+        "requirements": {
+            "count": {
+                "quantity": 2,
+                "from": [
+                    {
+                        "itemName": "blood shard",
+                        "itemId": null,
+                        "quantity": 1
+                    }
+                ]
             }
-          ]
         }
-      }
     },
     "2_tob_purples": {
-      "tileName": "2 Tob Purples",
-      "points": 5,
-      "requirements": {
-        "count": {
-          "quantity": 2,
-          "from": [
-            {
-              "itemName": "avernic defender hilt",
-              "itemId": null,
-              "quantity": 1
-            },
-            {
-              "itemName": "justiciar faceguard",
-              "itemId": null,
-              "quantity": 1
-            },
-            {
-              "itemName": "justiciar chestguard",
-              "itemId": null,
-              "quantity": 1
-            },
-            {
-              "itemName": "justiciar legguards",
-              "itemId": null,
-              "quantity": 1
-            },
-            {
-              "itemName": "ghrazi rapier",
-              "itemId": null,
-              "quantity": 1
-            },
-            {
-              "itemName": "sanguinesti staff",
-              "itemId": null,
-              "quantity": 1
-            },
-            {
-              "itemName": "scythe of vitur",
-              "itemId": null,
-              "quantity": 1
+        "tileName": "2 Tob Purples",
+        "points": 5,
+        "requirements": {
+            "count": {
+                "quantity": 2,
+                "from": [
+                    {
+                        "itemName": "avernic defender hilt",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "justiciar faceguard",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "justiciar chestguard",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "justiciar legguards",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "ghrazi rapier",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "sanguinesti staff",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "scythe of vitur",
+                        "itemId": null,
+                        "quantity": 1
+                    }
+                ]
             }
-          ]
         }
-      }
     },
     "armor_or_enhanced_weapon_seed": {
-      "tileName": "Armor or Enhanced Weapon Seed",
-      "points": 2,
-      "requirements": {
-        "any_of": [
-          {
-            "itemName": "armor seed",
-            "itemId": null,
-            "quantity": 1
-          },
-          {
-            "itemName": "enhanced weapon seed",
-            "itemId": null,
-            "quantity": 1
-          }
-        ]
-      }
+        "tileName": "Armor or Enhanced Weapon Seed",
+        "points": 2,
+        "requirements": {
+            "any_of": [
+                {
+                    "itemName": "armor seed",
+                    "itemId": null,
+                    "quantity": 1
+                },
+                {
+                    "itemName": "enhanced weapon seed",
+                    "itemId": null,
+                    "quantity": 1
+                }
+            ]
+        }
     },
     "bryophyta_obor": {
         "tileName": "Bryophyta/Obor",
@@ -457,42 +457,22 @@
                 "quantity": 1,
                 "from": [
                     {
-                        "itemName": "Zaryte crossbow",
+                        "itemName": "Torva full helm (damaged)",
                         "itemId": null,
                         "quantity": 1
                     },
                     {
-                        "itemName": "Torva full helm",
+                        "itemName": "Torva platebody (damaged)",
                         "itemId": null,
                         "quantity": 1
                     },
                     {
-                        "itemName": "Torva platebody",
+                        "itemName": "Torva platelegs (damaged)",
                         "itemId": null,
                         "quantity": 1
                     },
                     {
-                        "itemName": "Torva platelegs",
-                        "itemId": null,
-                        "quantity": 1
-                    },
-                    {
-                        "itemName": "Virtus mask",
-                        "itemId": null,
-                        "quantity": 1
-                    },
-                    {
-                        "itemName": "Virtus robe top",
-                        "itemId": null,
-                        "quantity": 1
-                    },
-                    {
-                        "itemName": "Virtus robe bottom",
-                        "itemId": null,
-                        "quantity": 1
-                    },
-                    {
-                        "itemName": "Ancient godsword",
+                        "itemName": "Ancient hilt",
                         "itemId": null,
                         "quantity": 1
                     },
@@ -556,17 +536,17 @@
         "requirements": {
             "all_of": [
                 {
-                    "itemName": "godsword shard 1",
+                    "itemName": "Godsword shard 1",
                     "itemId": null,
                     "quantity": 1
                 },
                 {
-                    "itemName": "godsword shard 2",
+                    "itemName": "Godsword shard 2",
                     "itemId": null,
                     "quantity": 1
                 },
                 {
-                    "itemName": "godsword shard 3",
+                    "itemName": "Godsword shard 3",
                     "itemId": null,
                     "quantity": 1
                 },
@@ -664,7 +644,7 @@
                 "quantity": 3,
                 "from": [
                     {
-                        "itemName": "gold ring",
+                        "itemName": "Vestige roll",
                         "itemId": null,
                         "quantity": 1
                     }
@@ -1615,8 +1595,8 @@
             ]
         }
     },
-    "arraxor_unique": {
-        "title": "Arraxor Unique",
+    "araxxor_unique": {
+        "title": "Araxxor Unique",
         "description": "1 Fang or 3 hally drops or Pet",
         "points": 4,
         "image": "https://oldschool.runescape.wiki/images/thumb/Noxious_halberd_detail.png/180px-Noxious_halberd_detail.png?fa0de",
@@ -1629,7 +1609,7 @@
                 },
                 {
                     "count": {
-                        "quantity": 3,
+                        "quantity": 1,
                         "from": [
                             {
                                 "itemName": "Noxious pommel",
@@ -2377,8 +2357,8 @@
             "quantity": 1
         }
     },
-    "guilded_3rd_age": {
-        "title": "Guilded/3rd Age",
+    "gilded_3rd_age": {
+        "title": "Gilded/3rd Age",
         "description": "no 3rd age ring",
         "points": 10,
         "image": "https://oldschool.runescape.wiki/images/thumb/3rd_age_pickaxe_detail.png/180px-3rd_age_pickaxe_detail.png?0bf61",
