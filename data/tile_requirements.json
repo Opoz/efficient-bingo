@@ -1,87 +1,83 @@
 {
     "2_blood_shards": {
-      "tileName": "2 Blood Shards",
-      "points": 2,
-      "requirements": {
-        "count": {
-          "quantity": 2,
-          "from": [
-            {
-              "itemName": "blood shard",
-              "itemId": null,
-              "quantity": 1
+        "tileName": "2 Blood Shards",
+        "requirements": {
+            "count": {
+                "quantity": 2,
+                "from": [
+                    {
+                        "itemName": "blood shard",
+                        "itemId": null,
+                        "quantity": 1
+                    }
+                ]
             }
-          ]
         }
-      }
     },
     "2_tob_purples": {
-      "tileName": "2 Tob Purples",
-      "points": 5,
-      "requirements": {
-        "count": {
-          "quantity": 2,
-          "from": [
-            {
-              "itemName": "avernic defender hilt",
-              "itemId": null,
-              "quantity": 1
-            },
-            {
-              "itemName": "justiciar faceguard",
-              "itemId": null,
-              "quantity": 1
-            },
-            {
-              "itemName": "justiciar chestguard",
-              "itemId": null,
-              "quantity": 1
-            },
-            {
-              "itemName": "justiciar legguards",
-              "itemId": null,
-              "quantity": 1
-            },
-            {
-              "itemName": "ghrazi rapier",
-              "itemId": null,
-              "quantity": 1
-            },
-            {
-              "itemName": "sanguinesti staff",
-              "itemId": null,
-              "quantity": 1
-            },
-            {
-              "itemName": "scythe of vitur",
-              "itemId": null,
-              "quantity": 1
+        "tileName": "2 Tob Purples",
+        "requirements": {
+            "count": {
+                "quantity": 2,
+                "from": [
+                    {
+                        "itemName": "avernic defender hilt",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "justiciar faceguard",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "justiciar chestguard",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "justiciar legguards",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "ghrazi rapier",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "sanguinesti staff",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "scythe of vitur",
+                        "itemId": null,
+                        "quantity": 1
+                    }
+                ]
             }
-          ]
         }
-      }
     },
     "armor_or_enhanced_weapon_seed": {
-      "tileName": "Armor or Enhanced Weapon Seed",
-      "points": 2,
-      "requirements": {
-        "any_of": [
-          {
-            "itemName": "armor seed",
-            "itemId": null,
-            "quantity": 1
-          },
-          {
-            "itemName": "enhanced weapon seed",
-            "itemId": null,
-            "quantity": 1
-          }
-        ]
-      }
+        "tileName": "Armor or Enhanced Weapon Seed",
+        "requirements": {
+            "any_of": [
+                {
+                    "itemName": "armor seed",
+                    "itemId": null,
+                    "quantity": 1
+                },
+                {
+                    "itemName": "enhanced weapon seed",
+                    "itemId": null,
+                    "quantity": 1
+                }
+            ]
+        }
     },
     "bryophyta_obor": {
         "tileName": "Bryophyta/Obor",
-        "points": 3,
         "requirements": {
             "any_of": [
                 {
@@ -1525,8 +1521,7 @@
                         },
                         {
                             "itemName": "Guthan's platebody",
-                            "itemId": null,
-                            "quantity": 1
+                            "itemId": null
                         },
                         {
                             "itemName": "Guthan's chainskirt",
