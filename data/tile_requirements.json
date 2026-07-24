@@ -1,0 +1,3068 @@
+{
+    "2_blood_shards": {
+      "tileName": "2 Blood Shards",
+      "points": 2,
+      "requirements": {
+        "count": {
+          "quantity": 2,
+          "from": [
+            {
+              "itemName": "blood shard",
+              "itemId": null,
+              "quantity": 1
+            }
+          ]
+        }
+      }
+    },
+    "2_tob_purples": {
+      "tileName": "2 Tob Purples",
+      "points": 5,
+      "requirements": {
+        "count": {
+          "quantity": 2,
+          "from": [
+            {
+              "itemName": "avernic defender hilt",
+              "itemId": null,
+              "quantity": 1
+            },
+            {
+              "itemName": "justiciar faceguard",
+              "itemId": null,
+              "quantity": 1
+            },
+            {
+              "itemName": "justiciar chestguard",
+              "itemId": null,
+              "quantity": 1
+            },
+            {
+              "itemName": "justiciar legguards",
+              "itemId": null,
+              "quantity": 1
+            },
+            {
+              "itemName": "ghrazi rapier",
+              "itemId": null,
+              "quantity": 1
+            },
+            {
+              "itemName": "sanguinesti staff",
+              "itemId": null,
+              "quantity": 1
+            },
+            {
+              "itemName": "scythe of vitur",
+              "itemId": null,
+              "quantity": 1
+            }
+          ]
+        }
+      }
+    },
+    "armor_or_enhanced_weapon_seed": {
+      "tileName": "Armor or Enhanced Weapon Seed",
+      "points": 2,
+      "requirements": {
+        "any_of": [
+          {
+            "itemName": "armor seed",
+            "itemId": null,
+            "quantity": 1
+          },
+          {
+            "itemName": "enhanced weapon seed",
+            "itemId": null,
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    "bryophyta_obor": {
+        "tileName": "Bryophyta/Obor",
+        "points": 3,
+        "requirements": {
+            "any_of": [
+                {
+                    "itemName": "Hill Giant Club",
+                    "itemId": null,
+                    "quantity": 1
+                },
+                {
+                    "itemName": "Bryophyta essence",
+                    "itemId": null,
+                    "quantity": 1
+                }
+            ]
+        }
+    },
+    "2_cox_purple": {
+        "title": "2 Cox Purple",
+        "description": "",
+        "points": 5,
+        "image": "https://oldschool.runescape.wiki/images/thumb/Ancestral_robe_top_detail.png/180px-Ancestral_robe_top_detail.png?d12d2",
+        "requirements": {
+            "count": {
+                "quantity": 2,
+                "from": [
+                    {
+                        "itemName": "Dexterous prayer scroll",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Arcane prayer scroll",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Twisted buckler",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Dragon hunter crossbow",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Dinh's bulwark",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Ancestral hat",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Ancestral robe top",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Ancestral robe bottom",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Dragon claws",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Elder maul",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Kodai insignia",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Twisted bow",
+                        "itemId": null,
+                        "quantity": 1
+                    }
+                ]
+            }
+        }
+    },
+    "2_toa_purple": {
+        "title": "2 Toa Purple",
+        "description": "",
+        "points": 5,
+        "image": "https://oldschool.runescape.wiki/images/thumb/Lightbearer_detail.png/180px-Lightbearer_detail.png?3576d",
+        "requirements": {
+            "count": {
+                "quantity": 2,
+                "from": [
+                    {
+                        "itemName": "Osmumten's fang",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Lightbearer",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Elidinis' ward",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Masori mask",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Masori body",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Masori chaps",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Tumeken's shadow (uncharged)",
+                        "itemId": null,
+                        "quantity": 1
+                    }
+                ]
+            }
+        }
+    },
+    "4_moons_pieces": {
+        "title": "4 Moons Pieces",
+        "description": "",
+        "points": 3,
+        "image": "https://oldschool.runescape.wiki/images/thumb/Eclipse_atlatl_detail.png/180px-Eclipse_atlatl_detail.png?8f887",
+        "requirements": {
+            "count": {
+                "quantity": 4,
+                "from": [
+                    {
+                        "itemName": "Eclipse atlatl",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Eclipse moon helm",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Eclipse moon chestplate",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Eclipse moon tassets",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Dual macuahuitl",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Blood moon helm",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Blood moon chestplate",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Blood moon tassets",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Blue moon spear",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Blue moon helm",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Blue moon chestplate",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Blue moon tassets",
+                        "itemId": null,
+                        "quantity": 1
+                    }
+                ]
+            }
+        }
+    },
+    "aranea_boots": {
+        "title": "Aranea Boots",
+        "description": "",
+        "points": 1,
+        "image": "https://oldschool.runescape.wiki/images/thumb/Aranea_boots_detail.png/180px-Aranea_boots_detail.png?43deb",
+        "requirements": {
+            "itemName": "Aranea Boots",
+            "itemId": null,
+            "quantity": 1
+        }
+    },
+    "maggot_unique": {
+        "title": "Maggot Unique",
+        "description": "Elder venator fang, Crimson Kisten, or Pet",
+        "points": 4,
+        "image": "https://oldschool.runescape.wiki/images/thumb/Necklace_of_rupture_detail.png/180px-Necklace_of_rupture_detail.png?6c1bd",
+        "requirements": {
+            "count": {
+                "quantity": 1,
+                "from": [
+                    {
+                        "itemName": "Elder venator fang",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Crimson Kisten",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Maggot marquess",
+                        "itemId": null,
+                        "quantity": 1
+                    }
+                ]
+            }
+        }
+    },
+    "dragon_boots": {
+        "title": "Dragon Boots",
+        "description": "",
+        "points": 1,
+        "image": "https://oldschool.runescape.wiki/images/thumb/Dragon_boots_detail.png/180px-Dragon_boots_detail.png?35048",
+        "requirements": {
+            "itemName": "Dragon Boots",
+            "itemId": null,
+            "quantity": 1
+        }
+    },
+    "wildy_bosses": {
+        "title": "Wildy Bosses",
+        "description": "ALL 3 Wildy Rings or FULL Voidwaker",
+        "points": 8,
+        "image": "https://oldschool.runescape.wiki/images/thumb/Voidwaker_detail.png/180px-Voidwaker_detail.png?01835",
+        "requirements": {
+            "any_of": [
+                {
+                    "all_of": [
+                        {
+                            "itemName": "Ring of the gods",
+                            "itemId": null,
+                            "quantity": 1
+                        },
+                        {
+                            "itemName": "Treasonous ring",
+                            "itemId": null,
+                            "quantity": 1
+                        },
+                        {
+                            "itemName": "Tyrannical ring",
+                            "itemId": null,
+                            "quantity": 1
+                        }
+                    ]
+                },
+                {
+                    "all_of": [
+                        {
+                            "itemName": "Voidwaker blade",
+                            "itemId": null,
+                            "quantity": 1
+                        },
+                        {
+                            "itemName": "Voidwaker hilt",
+                            "itemId": null,
+                            "quantity": 1
+                        },
+                        {
+                            "itemName": "Voidwaker gem",
+                            "itemId": null,
+                            "quantity": 1
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "zombie_axe_helmet": {
+        "title": "Zombie Axe & Helmet",
+        "description": "",
+        "points": 2,
+        "image": "https://oldschool.runescape.wiki/images/thumb/Zombie_axe_detail.png/180px-Zombie_axe_detail.png?be691",
+        "requirements": {
+            "all_of": [
+                {
+                    "itemName": "Zombie Axe",
+                    "itemId": null,
+                    "quantity": 1
+                },
+                {
+                    "itemName": "zombie helmet",
+                    "itemId": null,
+                    "quantity": 1
+                }
+            ]
+        }
+    },
+    "yama_unique": {
+        "title": "Yama Unique",
+        "description": "Oathplate/Horn/Pet\n\n*CANT DO OATHPLATE OR PET CONTRACT*",
+        "points": 3,
+        "image": "https://oldschool.runescape.wiki/images/thumb/Soulflame_horn_detail.png/180px-Soulflame_horn_detail.png?4fb4d",
+        "requirements": {
+            "count": {
+                "quantity": 1,
+                "from": [
+                    {
+                        "itemName": "Soulflame horn",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Oathplate helm",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Oathplate chest",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Oathplate legs",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "yami",
+                        "itemId": null,
+                        "quantity": 1
+                    }
+                ]
+            }
+        }
+    },
+    "nex_unique": {
+        "title": "Nex Unique",
+        "description": "Pet Included",
+        "points": 6,
+        "image": "https://oldschool.runescape.wiki/images/thumb/Torva_full_helm_detail.png/180px-Torva_full_helm_detail.png?975a0",
+        "requirements": {
+            "count": {
+                "quantity": 1,
+                "from": [
+                    {
+                        "itemName": "Zaryte crossbow",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Torva full helm",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Torva platebody",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Torva platelegs",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Virtus mask",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Virtus robe top",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Virtus robe bottom",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Ancient godsword",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Nihil horn",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Nexling",
+                        "itemId": null,
+                        "quantity": 1
+                    }
+                ]
+            }
+        }
+    },
+    "3_zulrah_uniques": {
+        "title": "3 Zulrah Uniques",
+        "description": "Pet and Onyx Included",
+        "points": 3,
+        "image": "https://oldschool.runescape.wiki/images/thumb/Toxic_blowpipe_detail.png/180px-Toxic_blowpipe_detail.png?6a110",
+        "requirements": {
+            "count": {
+                "quantity": 3,
+                "from": [
+                    {
+                        "itemName": "Tanzanite fang",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Magic fang",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Serpentine visage",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Uncut onyx",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Pet snakeling",
+                        "itemId": null,
+                        "quantity": 1
+                    }
+                ]
+            }
+        }
+    },
+    "full_godsword": {
+        "title": "Full Godsword",
+        "description": "All 4 Shards + Hilt",
+        "points": 4,
+        "image": "https://oldschool.runescape.wiki/images/thumb/Bandos_godsword_detail.png/180px-Bandos_godsword_detail.png?2250a",
+        "requirements": {
+            "all_of": [
+                {
+                    "itemName": "godsword shard 1",
+                    "itemId": null,
+                    "quantity": 1
+                },
+                {
+                    "itemName": "godsword shard 2",
+                    "itemId": null,
+                    "quantity": 1
+                },
+                {
+                    "itemName": "godsword shard 3",
+                    "itemId": null,
+                    "quantity": 1
+                },
+                {
+                    "count": {
+                        "quantity": 1,
+                        "from": [
+                            {
+                                "itemName": "Ancient hilt",
+                                "itemId": null,
+                                "quantity": 1
+                            },
+                            {
+                                "itemName": "Armadyl hilt",
+                                "itemId": null,
+                                "quantity": 1
+                            },
+                            {
+                                "itemName": "Bandos hilt",
+                                "itemId": null,
+                                "quantity": 1
+                            },
+                            {
+                                "itemName": "Saradomin hilt",
+                                "itemId": null,
+                                "quantity": 1
+                            },
+                            {
+                                "itemName": "Zamorak hilt",
+                                "itemId": null,
+                                "quantity": 1
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    },
+    "medium_clue_boot": {
+        "title": "Medium Clue Boot",
+        "description": "Any Medium Clue Boot",
+        "points": 4,
+        "image": "https://oldschool.runescape.wiki/images/thumb/Ranger_boots_detail.png/180px-Ranger_boots_detail.png?e421a",
+        "requirements": {
+            "count": {
+                "quantity": 1,
+                "from": [
+                    {
+                        "itemName": "Ranger boots",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Wizard boots",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Holy sandals",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Spiked manacles",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Climbing Boots(g)",
+                        "itemId": null,
+                        "quantity": 1
+                    }
+                ]
+            }
+        }
+    },
+    "dragon_pick": {
+        "title": "Dragon Pick",
+        "description": "",
+        "points": 2,
+        "image": "https://oldschool.runescape.wiki/images/thumb/Dragon_pickaxe_detail.png/180px-Dragon_pickaxe_detail.png?4f4ee",
+        "requirements": {
+            "itemName": "Dragon Pickaxe",
+            "itemId": null,
+            "quantity": 1
+        }
+    },
+    "3_dt2_gold_rings": {
+        "title": "3 DT2 Gold Rings",
+        "description": "3 Gold ring rolls from any dt2 boss\n\n(1 vestige = 1 gold ring roll)",
+        "points": 4,
+        "image": "https://oldschool.runescape.wiki/images/thumb/Gold_ring_detail.png/180px-Gold_ring_detail.png?8793d",
+        "requirements": {
+            "count": {
+                "quantity": 3,
+                "from": [
+                    {
+                        "itemName": "gold ring",
+                        "itemId": null,
+                        "quantity": 1
+                    }
+                ]
+            }
+        }
+    },
+    "dragon_cannon_barrel": {
+        "title": "Dragon Cannon Barrel",
+        "description": "",
+        "points": 5,
+        "image": "https://oldschool.runescape.wiki/images/thumb/Dragon_cannon_barrel_detail.png/180px-Dragon_cannon_barrel_detail.png?b117f",
+        "requirements": {
+            "itemName": "Dragon Cannon Barrel",
+            "itemId": null,
+            "quantity": 1
+        }
+    },
+    "any_sra_axe_piece": {
+        "title": "ANY SRA AXE PIECE",
+        "description": "",
+        "points": 4,
+        "image": "https://oldschool.runescape.wiki/images/thumb/Executioner%27s_axe_head_detail.png/180px-Executioner%27s_axe_head_detail.png?b410d",
+        "requirements": {
+            "count": {
+                "quantity": 1,
+                "from": [
+                    {
+                        "itemName": "Leviathan's lure",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Siren's staff",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Executioner's axe head",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Eye of the duke",
+                        "itemId": null,
+                        "quantity": 1
+                    }
+                ]
+            }
+        }
+    },
+    "3_venator_shards": {
+        "title": "3 Venator Shards",
+        "description": "",
+        "points": 3,
+        "image": "https://oldschool.runescape.wiki/images/thumb/Venator_shard_detail.png/180px-Venator_shard_detail.png?3ad3e",
+        "requirements": {
+            "count": {
+                "quantity": 3,
+                "from": [
+                    {
+                        "itemName": "Venator Shard",
+                        "itemId": null,
+                        "quantity": 1
+                    }
+                ]
+            }
+        }
+    },
+    "tormented_demons_unique": {
+        "title": "Tormented Demons Unique",
+        "description": "",
+        "points": 3,
+        "image": "https://oldschool.runescape.wiki/images/thumb/Tormented_synapse_detail.png/180px-Tormented_synapse_detail.png?27153",
+        "requirements": {
+            "count": {
+                "quantity": 1,
+                "from": [
+                    {
+                        "itemName": "Burning claws",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Tormented synapse",
+                        "itemId": null,
+                        "quantity": 1
+                    }
+                ]
+            }
+        }
+    },
+    "akimbo_weapons": {
+        "title": "Akimbo Weapons",
+        "description": "GET Glacial temotli, Sulphur blades and Earthbound Tecpatl",
+        "points": 3,
+        "image": "https://oldschool.runescape.wiki/images/thumb/Sulphur_blades_detail.png/180px-Sulphur_blades_detail.png?f6d50",
+        "requirements": {
+            "all_of": [
+                {
+                    "itemName": "Glacial temotli",
+                    "itemId": null,
+                    "quantity": 1
+                },
+                {
+                    "itemName": "Sulphur blades",
+                    "itemId": null,
+                    "quantity": 1
+                },
+                {
+                    "itemName": "Earthbound Tecpatl",
+                    "itemId": null,
+                    "quantity": 1
+                }
+            ]
+        }
+    },
+    "full_twinflame_staff": {
+        "title": "Full Twinflame Staff",
+        "description": "Both Halves",
+        "points": 2,
+        "image": "https://oldschool.runescape.wiki/images/thumb/Twinflame_staff_detail.png/180px-Twinflame_staff_detail.png?e1e78",
+        "requirements": {
+            "all_of": [
+                {
+                    "itemName": "Ice element staff crown",
+                    "itemId": null,
+                    "quantity": 1
+                },
+                {
+                    "itemName": "Fire element staff crown",
+                    "itemId": null,
+                    "quantity": 1
+                }
+            ]
+        }
+    },
+    "cerb_crystal_only_boot_upgrade": {
+        "title": "Cerb Crystal (only boot upgrade)",
+        "description": "any 1 of the 3\nsmouldering stone does not count",
+        "points": 3,
+        "image": "https://oldschool.runescape.wiki/images/thumb/Pegasian_crystal_detail.png/180px-Pegasian_crystal_detail.png?7887c",
+        "requirements": {
+            "count": {
+                "quantity": 1,
+                "from": [
+                    {
+                        "itemName": "Pegasian crystal",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Primordial crystal",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Eternal crystal",
+                        "itemId": null,
+                        "quantity": 1
+                    }
+                ]
+            }
+        }
+    },
+    "visage": {
+        "title": "Visage",
+        "description": "NO Serpentine Visage",
+        "points": 8,
+        "image": "https://oldschool.runescape.wiki/images/thumb/Draconic_visage_detail.png/180px-Draconic_visage_detail.png?6edab",
+        "requirements": {
+            "count": {
+                "quantity": 1,
+                "from": [
+                    {
+                        "itemName": "Draconic visage",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Skeletal visage",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Wyvern visage",
+                        "itemId": null,
+                        "quantity": 1
+                    }
+                ]
+            }
+        }
+    },
+    "5_immaculate_mole_skins": {
+        "title": "5 immaculate mole skins",
+        "description": "",
+        "points": 2,
+        "image": "https://oldschool.runescape.wiki/images/thumb/Immaculate_mole_skin_detail.png/180px-Immaculate_mole_skin_detail.png?d9f06",
+        "requirements": {
+            "count": {
+                "quantity": 5,
+                "from": [
+                    {
+                        "itemName": "immaculate mole skins",
+                        "itemId": null,
+                        "quantity": 1
+                    }
+                ]
+            }
+        }
+    },
+    "granite_maul": {
+        "title": "Granite Maul",
+        "description": "From boss or Normal Gargs",
+        "points": 1,
+        "image": "https://oldschool.runescape.wiki/images/thumb/Granite_maul_detail.png/180px-Granite_maul_detail.png?75031",
+        "requirements": {
+            "itemName": "Granite Maul",
+            "itemId": null,
+            "quantity": 1
+        }
+    },
+    "chromium_ingot": {
+        "title": "Chromium Ingot",
+        "description": "",
+        "points": 1,
+        "image": "https://oldschool.runescape.wiki/images/thumb/Chromium_ingot_detail.png/180px-Chromium_ingot_detail.png?b410d",
+        "requirements": {
+            "itemName": "Chromium Ingot",
+            "itemId": null,
+            "quantity": 1
+        }
+    },
+    "alchemical_hydra_unique": {
+        "title": "Alchemical Hydra Unique",
+        "description": "ANY 1 Tail, Leather, Claw, Pet\n\nOR 3 Pieces of the ring Eye, Fang, Heart",
+        "points": 4,
+        "image": "https://oldschool.runescape.wiki/images/thumb/Hydra%27s_claw_detail.png/180px-Hydra%27s_claw_detail.png?994b3",
+        "requirements": {
+            "any_of": [
+                {
+                    "count": {
+                        "quantity": 1,
+                        "from": [
+                            {
+                                "itemName": "Hydra's claw",
+                                "itemId": null,
+                                "quantity": 1
+                            },
+                            {
+                                "itemName": "Hydra leather",
+                                "itemId": null,
+                                "quantity": 1
+                            },
+                            {
+                                "itemName": "Hydra tail",
+                                "itemId": null,
+                                "quantity": 1
+                            },
+                            {
+                                "itemName": "Ikkle hydra",
+                                "itemId": null,
+                                "quantity": 1
+                            }
+                        ]
+                    }
+                },
+                {
+                    "count": {
+                        "quantity": 3,
+                        "from": [
+                            {
+                                "itemName": "Hydra's eye",
+                                "itemId": null,
+                                "quantity": 1
+                            },
+                            {
+                                "itemName": "Hydra's fang",
+                                "itemId": null,
+                                "quantity": 1
+                            },
+                            {
+                                "itemName": "Hydra's heart",
+                                "itemId": null,
+                                "quantity": 1
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    },
+    "any_virtus_piece": {
+        "title": "Any Virtus Piece",
+        "description": "",
+        "points": 5,
+        "image": "https://oldschool.runescape.wiki/images/thumb/Virtus_robe_top_detail.png/180px-Virtus_robe_top_detail.png?b2b4a",
+        "requirements": {
+            "count": {
+                "quantity": 1,
+                "from": [
+                    {
+                        "itemName": "Virtus mask",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Virtus robe top",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Virtus robe bottom",
+                        "itemId": null,
+                        "quantity": 1
+                    }
+                ]
+            }
+        }
+    },
+    "any_rev_unique": {
+        "title": "Any Rev Unique",
+        "description": "ALL Ancient statuettes + Weapons/Avarice count\n\nCANT BE FROM REV BOSS",
+        "points": 2,
+        "image": "https://oldschool.runescape.wiki/images/thumb/Ancient_totem_detail.png/180px-Ancient_totem_detail.png?63bac",
+        "requirements": {
+            "count": {
+                "quantity": 1,
+                "from": [
+                    {
+                        "itemName": "Amulet of avarice",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Craw's bow (u)",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Thammaron's sceptre (u)",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Viggora's chainmace (u)",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Ancient emblem",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Ancient totem",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Ancient statuette",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Ancient medallion",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Ancient effigy",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Ancient relic",
+                        "itemId": null,
+                        "quantity": 1
+                    }
+                ]
+            }
+        }
+    },
+    "black_mask": {
+        "title": "Black Mask",
+        "description": "",
+        "points": 1,
+        "image": "https://oldschool.runescape.wiki/images/thumb/Black_mask_detail.png/180px-Black_mask_detail.png?5b902",
+        "requirements": {
+            "itemName": "Black Mask",
+            "itemId": null,
+            "quantity": 1
+        }
+    },
+    "grotesque_guardians_unique": {
+        "title": "Grotesque Guardians Unique",
+        "description": "anything but gmaul",
+        "points": 3,
+        "image": "https://oldschool.runescape.wiki/images/thumb/Black_tourmaline_core_detail.png/180px-Black_tourmaline_core_detail.png?6db72",
+        "requirements": {
+            "count": {
+                "quantity": 1,
+                "from": [
+                    {
+                        "itemName": "Granite gloves",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Granite hammer",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Granite ring",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Jar of stone",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Noon",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Black tourmaline core",
+                        "itemId": null,
+                        "quantity": 1
+                    }
+                ]
+            }
+        }
+    },
+    "zenyte_shard": {
+        "title": "Zenyte Shard",
+        "description": "*NO BOOSTING*",
+        "points": 3,
+        "image": "https://oldschool.runescape.wiki/images/thumb/Zenyte_shard_detail.png/180px-Zenyte_shard_detail.png?c5a63",
+        "requirements": {
+            "itemName": "Zenyte Shard",
+            "itemId": null,
+            "quantity": 1
+        }
+    },
+    "any_mutagen": {
+        "title": "Any Mutagen",
+        "description": "",
+        "points": 10,
+        "image": "https://oldschool.runescape.wiki/images/thumb/Magma_mutagen_detail.png/180px-Magma_mutagen_detail.png?0551e",
+        "requirements": {
+            "count": {
+                "quantity": 1,
+                "from": [
+                    {
+                        "itemName": "Tanzanite mutagen",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Magma mutagen",
+                        "itemId": null,
+                        "quantity": 1
+                    }
+                ]
+            }
+        }
+    },
+    "dark_bow": {
+        "title": "Dark Bow",
+        "description": "",
+        "points": 1,
+        "image": "https://oldschool.runescape.wiki/images/thumb/Dark_bow_detail.png/180px-Dark_bow_detail.png?71f6b",
+        "requirements": {
+            "itemName": "Dark Bow",
+            "itemId": null,
+            "quantity": 1
+        }
+    },
+    "sarachnis_cudgel": {
+        "title": "Sarachnis Cudgel",
+        "description": "",
+        "points": 1,
+        "image": "https://oldschool.runescape.wiki/images/thumb/Sarachnis_cudgel_detail.png/180px-Sarachnis_cudgel_detail.png?f9ce8",
+        "requirements": {
+            "itemName": "Sarachnis Cudgel",
+            "itemId": null,
+            "quantity": 1
+        }
+    },
+    "corp_sigil": {
+        "title": "Corp Sigil",
+        "description": "*NO CORP BOOSTING*",
+        "points": 10,
+        "image": "https://oldschool.runescape.wiki/images/thumb/Elysian_spirit_shield_detail.png/180px-Elysian_spirit_shield_detail.png?e83cd",
+        "requirements": {
+            "count": {
+                "quantity": 1,
+                "from": [
+                    {
+                        "itemName": "Spectral sigil",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Arcane sigil",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Elysian sigil",
+                        "itemId": null,
+                        "quantity": 1
+                    }
+                ]
+            }
+        }
+    },
+    "aquanite_tendon": {
+        "title": "Aquanite Tendon",
+        "description": "",
+        "points": 2,
+        "image": "https://oldschool.runescape.wiki/images/thumb/Aquanite_tendon_detail.png/180px-Aquanite_tendon_detail.png?73e60",
+        "requirements": {
+            "itemName": "Aquanite Tendon",
+            "itemId": null,
+            "quantity": 1
+        }
+    },
+    "imbued_heart_eternal_gem": {
+        "title": "Imbued Heart/Eternal Gem",
+        "description": "",
+        "points": 10,
+        "image": "https://oldschool.runescape.wiki/images/thumb/Saturated_heart_detail.png/180px-Saturated_heart_detail.png?6167b",
+        "requirements": {
+            "count": {
+                "quantity": 1,
+                "from": [
+                    {
+                        "itemName": "Imbued heart",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Eternal gem",
+                        "itemId": null,
+                        "quantity": 1
+                    }
+                ]
+            }
+        }
+    },
+    "tomes": {
+        "title": "TOMES",
+        "description": "1 of either Tome of water/fire OR 2 Tomes of Earth",
+        "points": 4,
+        "image": "https://oldschool.runescape.wiki/images/thumb/Tome_of_fire_detail.png/180px-Tome_of_fire_detail.png?b9bae",
+        "requirements": {
+            "any_of": [
+                {
+                    "count": {
+                        "quantity": 1,
+                        "from": [
+                            {
+                                "itemName": "Tome of water",
+                                "itemId": null,
+                                "quantity": 1
+                            },
+                            {
+                                "itemName": "Tome of fire",
+                                "itemId": null,
+                                "quantity": 1
+                            }
+                        ]
+                    }
+                },
+                {
+                    "count": {
+                        "quantity": 2,
+                        "from": [
+                            {
+                                "itemName": "Tome of earth",
+                                "itemId": null,
+                                "quantity": 1
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    },
+    "zalcano_unique": {
+        "title": "Zalcano Unique",
+        "description": "Shard/Tool Seed/Pet",
+        "points": 7,
+        "image": "https://oldschool.runescape.wiki/images/thumb/Zalcano_shard_detail.png/180px-Zalcano_shard_detail.png?f52af",
+        "requirements": {
+            "count": {
+                "quantity": 1,
+                "from": [
+                    {
+                        "itemName": "Zalcano shard",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Crystal tool seed",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Zalcano pet",
+                        "itemId": null,
+                        "quantity": 1
+                    }
+                ]
+            }
+        }
+    },
+    "nightmare_unique": {
+        "title": "Nightmare Unique",
+        "description": "No egg or tablet",
+        "points": 7,
+        "image": "https://oldschool.runescape.wiki/images/thumb/Nightmare_staff_detail.png/180px-Nightmare_staff_detail.png?51fcd",
+        "requirements": {
+            "count": {
+                "quantity": 1,
+                "from": [
+                    {
+                        "itemName": "Nightmare staff",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Inquisitor's great helm",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Inquisitor's hauberk",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Inquisitor's plateskirt",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Inquisitor's mace",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Eldritch orb",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Harmonised orb",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Volatile orb",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Little nightmare",
+                        "itemId": null,
+                        "quantity": 1
+                    }
+                ]
+            }
+        }
+    },
+    "any_mega": {
+        "title": "Any Mega",
+        "description": "any 1 Scythe/Tbow/Shadow",
+        "points": 10,
+        "image": "https://oldschool.runescape.wiki/images/thumb/Scythe_of_vitur_detail.png/180px-Scythe_of_vitur_detail.png?939b9",
+        "requirements": {
+            "count": {
+                "quantity": 1,
+                "from": [
+                    {
+                        "itemName": "Scythe of vitur",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Twisted bow",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Tumeken's shadow (uncharged)",
+                        "itemId": null,
+                        "quantity": 1
+                    }
+                ]
+            }
+        }
+    },
+    "dragon_chainbody": {
+        "title": "Dragon Chainbody",
+        "description": "",
+        "points": 3,
+        "image": "https://oldschool.runescape.wiki/images/thumb/Dragon_chainbody_detail.png/180px-Dragon_chainbody_detail.png?35048",
+        "requirements": {
+            "itemName": "Dragon Chainbody",
+            "itemId": null,
+            "quantity": 1
+        }
+    },
+    "wilderness_weapon_upgrade": {
+        "title": "Wilderness Weapon Upgrade",
+        "description": "1 of any Claws of Callisto/Fangs of Venenatis/Skull of Vetion",
+        "points": 2,
+        "image": "https://oldschool.runescape.wiki/images/thumb/Claws_of_callisto_detail.png/180px-Claws_of_callisto_detail.png?bb22e",
+        "requirements": {
+            "count": {
+                "quantity": 1,
+                "from": [
+                    {
+                        "itemName": "Claws of Callisto",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Fangs of Venenatis",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Skull of Vet'ion",
+                        "itemId": null,
+                        "quantity": 1
+                    }
+                ]
+            }
+        }
+    },
+    "dragonbone_necklace": {
+        "title": "Dragonbone Necklace",
+        "description": "",
+        "points": 5,
+        "image": "https://oldschool.runescape.wiki/images/thumb/Dragonbone_necklace_detail.png/180px-Dragonbone_necklace_detail.png?132ed",
+        "requirements": {
+            "itemName": "Dragonbone Necklace",
+            "itemId": null,
+            "quantity": 1
+        }
+    },
+    "raid_kit_dust": {
+        "title": "Raid Kit/Dust",
+        "description": "No TOA kits",
+        "points": 6,
+        "image": "https://oldschool.runescape.wiki/images/thumb/Sanguine_dust_detail.png/180px-Sanguine_dust_detail.png?831a8",
+        "requirements": {
+            "count": {
+                "quantity": 1,
+                "from": [
+                    {
+                        "itemName": "Metamorphic dust",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Sanguine ornament kit",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Holy ornament kit",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Twisted ancestral colour kit",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Sanguine dust",
+                        "itemId": null,
+                        "quantity": 1
+                    }
+                ]
+            }
+        }
+    },
+    "full_barrows_set": {
+        "title": "FULL BARROWS SET",
+        "description": "any full barrows set",
+        "points": 4,
+        "image": "https://oldschool.runescape.wiki/images/thumb/Dharok%27s_greataxe_detail.png/180px-Dharok%27s_greataxe_detail.png?d8a0b",
+        "requirements": {
+            "any_of": [
+                {
+                    "all_of": [
+                        {
+                            "itemName": "Ahrim's hood",
+                            "itemId": null,
+                            "quantity": 1
+                        },
+                        {
+                            "itemName": "Ahrim's robetop",
+                            "itemId": null,
+                            "quantity": 1
+                        },
+                        {
+                            "itemName": "Ahrim's robeskirt",
+                            "itemId": null,
+                            "quantity": 1
+                        },
+                        {
+                            "itemName": "Ahrim's staff",
+                            "itemId": null,
+                            "quantity": 1
+                        }
+                    ]
+                },
+                {
+                    "all_of": [
+                        {
+                            "itemName": "Dharok's helm",
+                            "itemId": null,
+                            "quantity": 1
+                        },
+                        {
+                            "itemName": "Dharok's platebody",
+                            "itemId": null,
+                            "quantity": 1
+                        },
+                        {
+                            "itemName": "Dharok's platelegs",
+                            "itemId": null,
+                            "quantity": 1
+                        },
+                        {
+                            "itemName": "Dharok's greataxe",
+                            "itemId": null,
+                            "quantity": 1
+                        }
+                    ]
+                },
+                {
+                    "all_of": [
+                        {
+                            "itemName": "Guthan's helm",
+                            "itemId": null,
+                            "quantity": 1
+                        },
+                        {
+                            "itemName": "Guthan's platebody",
+                            "itemId": null,
+                            "quantity": 1
+                        },
+                        {
+                            "itemName": "Guthan's chainskirt",
+                            "itemId": null,
+                            "quantity": 1
+                        },
+                        {
+                            "itemName": "Guthan's warspear",
+                            "itemId": null,
+                            "quantity": 1
+                        }
+                    ]
+                },
+                {
+                    "all_of": [
+                        {
+                            "itemName": "Karil's coif",
+                            "itemId": null,
+                            "quantity": 1
+                        },
+                        {
+                            "itemName": "Karil's leathertop",
+                            "itemId": null,
+                            "quantity": 1
+                        },
+                        {
+                            "itemName": "Karil's leatherskirt",
+                            "itemId": null,
+                            "quantity": 1
+                        },
+                        {
+                            "itemName": "Karil's crossbow",
+                            "itemId": null,
+                            "quantity": 1
+                        }
+                    ]
+                },
+                {
+                    "all_of": [
+                        {
+                            "itemName": "Torag's helm",
+                            "itemId": null,
+                            "quantity": 1
+                        },
+                        {
+                            "itemName": "Torag's platebody",
+                            "itemId": null,
+                            "quantity": 1
+                        },
+                        {
+                            "itemName": "Torag's platelegs",
+                            "itemId": null,
+                            "quantity": 1
+                        },
+                        {
+                            "itemName": "Torag's hammers",
+                            "itemId": null,
+                            "quantity": 1
+                        }
+                    ]
+                },
+                {
+                    "all_of": [
+                        {
+                            "itemName": "Verac's helm",
+                            "itemId": null,
+                            "quantity": 1
+                        },
+                        {
+                            "itemName": "Verac's brassard",
+                            "itemId": null,
+                            "quantity": 1
+                        },
+                        {
+                            "itemName": "Verac's plateskirt",
+                            "itemId": null,
+                            "quantity": 1
+                        },
+                        {
+                            "itemName": "Verac's flail",
+                            "itemId": null,
+                            "quantity": 1
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "arraxor_unique": {
+        "title": "Arraxor Unique",
+        "description": "1 Fang or 3 hally drops or Pet",
+        "points": 4,
+        "image": "https://oldschool.runescape.wiki/images/thumb/Noxious_halberd_detail.png/180px-Noxious_halberd_detail.png?fa0de",
+        "requirements": {
+            "any_of": [
+                {
+                    "itemName": "Araxyte fang",
+                    "itemId": null,
+                    "quantity": 1
+                },
+                {
+                    "count": {
+                        "quantity": 3,
+                        "from": [
+                            {
+                                "itemName": "Noxious pommel",
+                                "itemId": null,
+                                "quantity": 1
+                            },
+                            {
+                                "itemName": "Noxious point",
+                                "itemId": null,
+                                "quantity": 1
+                            },
+                            {
+                                "itemName": "Noxious blade",
+                                "itemId": null,
+                                "quantity": 1
+                            }
+                        ]
+                    }
+                },
+                {
+                    "itemName": "Nid",
+                    "itemId": null,
+                    "quantity": 1
+                }
+            ]
+        }
+    },
+    "3_unsired": {
+        "title": "3 Unsired",
+        "description": "",
+        "points": 3,
+        "image": "https://oldschool.runescape.wiki/images/thumb/Unsired_detail.png/180px-Unsired_detail.png?36d00",
+        "requirements": {
+            "count": {
+                "quantity": 3,
+                "from": [
+                    {
+                        "itemName": "Unsired",
+                        "itemId": null,
+                        "quantity": 1
+                    }
+                ]
+            }
+        }
+    },
+    "kbd_head": {
+        "title": "KBD head",
+        "description": "",
+        "points": 1,
+        "image": "https://oldschool.runescape.wiki/images/thumb/Kbd_heads_detail.png/180px-Kbd_heads_detail.png?a6345",
+        "requirements": {
+            "itemName": "KBD head",
+            "itemId": null,
+            "quantity": 1
+        }
+    },
+    "mask_of_ranul": {
+        "title": "Mask of Ranul",
+        "description": "",
+        "points": 2,
+        "image": "https://oldschool.runescape.wiki/images/thumb/Mask_of_ranul_detail.png/180px-Mask_of_ranul_detail.png?4f67e",
+        "requirements": {
+            "itemName": "Mask of Ranul",
+            "itemId": null,
+            "quantity": 1
+        }
+    },
+    "shield_left_half": {
+        "title": "Shield Left Half",
+        "description": "",
+        "points": 1,
+        "image": "https://oldschool.runescape.wiki/images/thumb/Shield_left_half_detail.png/180px-Shield_left_half_detail.png?c8bbf",
+        "requirements": {
+            "itemName": "Shield Left Half",
+            "itemId": null,
+            "quantity": 1
+        }
+    },
+    "colo_unique": {
+        "title": "Colo Unique",
+        "description": "NO PET",
+        "points": 4,
+        "image": "https://oldschool.runescape.wiki/images/thumb/Tonalztics_of_ralos_detail.png/180px-Tonalztics_of_ralos_detail.png?fa107",
+        "requirements": {
+            "count": {
+                "quantity": 1,
+                "from": [
+                    {
+                        "itemName": "Sunfire fanatic helm",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Sunfire fanatic cuirass",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Sunfire fanatic chausses",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Dizana's quiver",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Tonalztics of ralos",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Echo crystal",
+                        "itemId": null,
+                        "quantity": 1
+                    }
+                ]
+            }
+        }
+    },
+    "bottled_storm": {
+        "title": "Bottled Storm",
+        "description": "",
+        "points": 3,
+        "image": "https://oldschool.runescape.wiki/images/thumb/Bottled_storm_detail.png/180px-Bottled_storm_detail.png?6fd35",
+        "requirements": {
+            "itemName": "Bottled Storm",
+            "itemId": null,
+            "quantity": 1
+        }
+    },
+    "ring_of_endurance": {
+        "title": "Ring of Endurance",
+        "description": "",
+        "points": 5,
+        "image": "https://oldschool.runescape.wiki/images/thumb/Ring_of_endurance_detail.png/180px-Ring_of_endurance_detail.png?2f9f3",
+        "requirements": {
+            "itemName": "Ring of Endurance",
+            "itemId": null,
+            "quantity": 1
+        }
+    },
+    "boss_jar": {
+        "title": "Boss Jar",
+        "description": "",
+        "points": 7,
+        "image": "https://oldschool.runescape.wiki/images/thumb/Jar_of_eyes_detail.png/180px-Jar_of_eyes_detail.png?7bdc6",
+        "requirements": {
+            "count": {
+                "quantity": 1,
+                "from": [
+                    {
+                        "itemName": "Jar of dirt",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Jar of swamp",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Jar of sand",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Jar of souls",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Jar of miasma",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Jar of darkness",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Jar of stone",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Jar of decay",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Jar of chemicals",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Jar of eyes",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Jar of dreams",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Jar of spirits",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Jar of smoke",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Jar of venom",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Jar of feathers",
+                        "itemId": null,
+                        "quantity": 1
+                    }
+                ]
+            }
+        }
+    },
+    "curved_bone": {
+        "title": "Curved bone",
+        "description": "1 Curved bone",
+        "points": 5,
+        "image": "https://oldschool.runescape.wiki/images/thumb/Curved_bone_detail.png/180px-Curved_bone_detail.png?2315b",
+        "requirements": {
+            "itemName": "Curved bone",
+            "itemId": null,
+            "quantity": 1
+        }
+    },
+    "wildy_shield": {
+        "title": "Wildy Shield",
+        "description": "Either Full Odium or Malediction Shield",
+        "points": 3,
+        "image": "https://oldschool.runescape.wiki/images/thumb/Odium_ward_detail.png/180px-Odium_ward_detail.png?49661",
+        "requirements": {
+            "any_of": [
+                {
+                    "all_of": [
+                        {
+                            "itemName": "Odium shard 1",
+                            "itemId": null,
+                            "quantity": 1
+                        },
+                        {
+                            "itemName": "Odium shard 2",
+                            "itemId": null,
+                            "quantity": 1
+                        },
+                        {
+                            "itemName": "Odium shard 3",
+                            "itemId": null,
+                            "quantity": 1
+                        }
+                    ]
+                },
+                {
+                    "all_of": [
+                        {
+                            "itemName": "Malediction shard 1",
+                            "itemId": null,
+                            "quantity": 1
+                        },
+                        {
+                            "itemName": "Malediction shard 2",
+                            "itemId": null,
+                            "quantity": 1
+                        },
+                        {
+                            "itemName": "Malediction shard 3",
+                            "itemId": null,
+                            "quantity": 1
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "beef": {
+        "title": "BEEF",
+        "description": "Obtain the BEEF pet",
+        "points": 2,
+        "image": "https://oldschool.runescape.wiki/images/thumb/Beef_detail.png/180px-Beef_detail.png?cd843",
+        "requirements": {
+            "itemName": "BEEF",
+            "itemId": null,
+            "quantity": 1
+        }
+    },
+    "kraken_unique_boss_only": {
+        "title": "Kraken Unique (Boss Only)",
+        "description": "Tentacle, Trident, pet, or jar all count",
+        "points": 2,
+        "image": "https://oldschool.runescape.wiki/images/thumb/Kraken_tentacle_detail.png/180px-Kraken_tentacle_detail.png?e5f2a",
+        "requirements": {
+            "count": {
+                "quantity": 1,
+                "from": [
+                    {
+                        "itemName": "Kraken tentacle",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Trident of the seas",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Abyssal orphan",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Jar of dirt",
+                        "itemId": null,
+                        "quantity": 1
+                    }
+                ]
+            }
+        }
+    },
+    "brine_sabre": {
+        "title": "Brine Sabre",
+        "description": "",
+        "points": 1,
+        "image": "https://oldschool.runescape.wiki/images/thumb/Brine_sabre_detail.png/180px-Brine_sabre_detail.png?1f853",
+        "requirements": {
+            "itemName": "Brine Sabre",
+            "itemId": null,
+            "quantity": 1
+        }
+    },
+    "3_vorkath_heads": {
+        "title": "3 Vorkath Heads",
+        "description": "3 heads",
+        "points": 2,
+        "image": "https://oldschool.runescape.wiki/images/thumb/Vorkath%27s_head_detail.png/180px-Vorkath%27s_head_detail.png?d5b97",
+        "requirements": {
+            "count": {
+                "quantity": 3,
+                "from": [
+                    {
+                        "itemName": "Vorkath head",
+                        "itemId": null,
+                        "quantity": 1
+                    }
+                ]
+            }
+        }
+    },
+    "dag_king_rings": {
+        "title": "Dag King Rings",
+        "description": "All 4 Dag Kings Rings",
+        "points": 4,
+        "image": "https://oldschool.runescape.wiki/images/thumb/Berserker_ring_detail.png/180px-Berserker_ring_detail.png?81f8b",
+        "requirements": {
+            "all_of": [
+                {
+                    "itemName": "Berserker ring",
+                    "itemId": null,
+                    "quantity": 1
+                },
+                {
+                    "itemName": "Warrior ring",
+                    "itemId": null,
+                    "quantity": 1
+                },
+                {
+                    "itemName": "Seers ring",
+                    "itemId": null,
+                    "quantity": 1
+                },
+                {
+                    "itemName": "Archers ring",
+                    "itemId": null,
+                    "quantity": 1
+                }
+            ]
+        }
+    },
+    "steel_ring": {
+        "title": "Steel ring",
+        "description": "",
+        "points": 1,
+        "image": "https://oldschool.runescape.wiki/images/thumb/Steel_ring_detail.png/180px-Steel_ring_detail.png?33393",
+        "requirements": {
+            "itemName": "Steel ring",
+            "itemId": null,
+            "quantity": 1
+        }
+    },
+    "elder_chaos_robes": {
+        "title": "Elder Chaos Robes",
+        "description": "Any 1 Piece of the set",
+        "points": 2,
+        "image": "https://oldschool.runescape.wiki/images/thumb/Elder_chaos_top_detail.png/180px-Elder_chaos_top_detail.png?19a96",
+        "requirements": {
+            "count": {
+                "quantity": 1,
+                "from": [
+                    {
+                        "itemName": "Elder chaos hood",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Elder chaos top",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Elder chaos robe",
+                        "itemId": null,
+                        "quantity": 1
+                    }
+                ]
+            }
+        }
+    },
+    "dragon_hunter_wand": {
+        "title": "Dragon Hunter Wand",
+        "description": "1 Dragon Hunter Wand",
+        "points": 3,
+        "image": "https://oldschool.runescape.wiki/images/thumb/Dragon_hunter_wand_detail.png/180px-Dragon_hunter_wand_detail.png?a3e16",
+        "requirements": {
+            "itemName": "Dragon Hunter Wand",
+            "itemId": null,
+            "quantity": 1
+        }
+    },
+    "sara_unique": {
+        "title": "Sara Unique",
+        "description": "",
+        "points": 3,
+        "image": "https://oldschool.runescape.wiki/images/thumb/Saradomin_sword_detail.png/180px-Saradomin_sword_detail.png?5539e",
+        "requirements": {
+            "count": {
+                "quantity": 1,
+                "from": [
+                    {
+                        "itemName": "Saradomin sword",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Saradomin's light",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Armadyl crossbow",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Saradomin hilt",
+                        "itemId": null,
+                        "quantity": 1
+                    }
+                ]
+            }
+        }
+    },
+    "k_rill_unique": {
+        "title": "K'rill Unique",
+        "description": "",
+        "points": 3,
+        "image": "https://oldschool.runescape.wiki/images/thumb/Staff_of_the_dead_detail.png/180px-Staff_of_the_dead_detail.png?aa8b8",
+        "requirements": {
+            "count": {
+                "quantity": 1,
+                "from": [
+                    {
+                        "itemName": "Steam battlestaff",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Zamorakian spear",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Staff of the dead",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Zamorak hilt",
+                        "itemId": null,
+                        "quantity": 1
+                    }
+                ]
+            }
+        }
+    },
+    "bandos_unique": {
+        "title": "Bandos Unique",
+        "description": "",
+        "points": 3,
+        "image": "https://oldschool.runescape.wiki/images/thumb/Bandos_chestplate_detail.png/180px-Bandos_chestplate_detail.png?98028",
+        "requirements": {
+            "count": {
+                "quantity": 1,
+                "from": [
+                    {
+                        "itemName": "Bandos chestplate",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Bandos tassets",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Bandos boots",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Bandos hilt",
+                        "itemId": null,
+                        "quantity": 1
+                    }
+                ]
+            }
+        }
+    },
+    "kree_unique": {
+        "title": "Kree Unique",
+        "description": "",
+        "points": 3,
+        "image": "https://oldschool.runescape.wiki/images/thumb/Armadyl_chestplate_detail.png/180px-Armadyl_chestplate_detail.png?78ba5",
+        "requirements": {
+            "count": {
+                "quantity": 1,
+                "from": [
+                    {
+                        "itemName": "Armadyl helmet",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Armadyl chestplate",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Armadyl chainskirt",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Armadyl hilt",
+                        "itemId": null,
+                        "quantity": 1
+                    }
+                ]
+            }
+        }
+    },
+    "thermy_unique": {
+        "title": "Thermy Unique",
+        "description": "Occult or smoke staff FROM THERMY",
+        "points": 2,
+        "image": "https://oldschool.runescape.wiki/images/thumb/Occult_necklace_detail.png/180px-Occult_necklace_detail.png?08adc",
+        "requirements": {
+            "count": {
+                "quantity": 1,
+                "from": [
+                    {
+                        "itemName": "Occult necklace",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Smoke battlestaff",
+                        "itemId": null,
+                        "quantity": 1
+                    }
+                ]
+            }
+        }
+    },
+    "belle_s_folly": {
+        "title": "Belle's Folly",
+        "description": "",
+        "points": 1,
+        "image": "https://oldschool.runescape.wiki/images/thumb/Belle%27s_folly_detail.png/180px-Belle%27s_folly_detail.png?d3419",
+        "requirements": {
+            "itemName": "Belle's Folly",
+            "itemId": null,
+            "quantity": 1
+        }
+    },
+    "obby_cape": {
+        "title": "Obby cape",
+        "description": "",
+        "points": 1,
+        "image": "https://oldschool.runescape.wiki/images/thumb/Obsidian_cape_detail.png/180px-Obsidian_cape_detail.png?84706",
+        "requirements": {
+            "itemName": "Obby cape",
+            "itemId": null,
+            "quantity": 1
+        }
+    },
+    "doom_unique": {
+        "title": "Doom Unique",
+        "description": "pet counts",
+        "points": 4,
+        "image": "https://oldschool.runescape.wiki/images/thumb/Eye_of_ayak_detail.png/180px-Eye_of_ayak_detail.png?0bf26",
+        "requirements": {
+            "count": {
+                "quantity": 1,
+                "from": [
+                    {
+                        "itemName": "Avernic treads",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Eye of ayak (uncharged)",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Mokhaiotl cloth",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Dom",
+                        "itemId": null,
+                        "quantity": 1
+                    }
+                ]
+            }
+        }
+    },
+    "forestry": {
+        "title": "Forestry",
+        "description": "any 1 of the 3, (Golden Egg, Fox Whistle, Petal Garland)\n\n*NO BUYING ANY OF THE DROPS*",
+        "points": 3,
+        "image": "https://oldschool.runescape.wiki/images/thumb/Golden_pheasant_egg_detail.png/180px-Golden_pheasant_egg_detail.png?db719",
+        "requirements": {
+            "count": {
+                "quantity": 1,
+                "from": [
+                    {
+                        "itemName": "Golden Egg",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Fox Whistle",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Petal Garland",
+                        "itemId": null,
+                        "quantity": 1
+                    }
+                ]
+            }
+        }
+    },
+    "fedora": {
+        "title": "Fedora",
+        "description": "",
+        "points": 1,
+        "image": "https://oldschool.runescape.wiki/images/thumb/Fedora_detail.png/180px-Fedora_detail.png?1c5ef",
+        "requirements": {
+            "itemName": "Fedora",
+            "itemId": null,
+            "quantity": 1
+        }
+    },
+    "antler_guard": {
+        "title": "Antler Guard",
+        "description": "",
+        "points": 1,
+        "image": "https://oldschool.runescape.wiki/images/thumb/Antler_guard_detail.png/180px-Antler_guard_detail.png?a40bf",
+        "requirements": {
+            "itemName": "Antler Guard",
+            "itemId": null,
+            "quantity": 1
+        }
+    },
+    "warped_sceptre": {
+        "title": "Warped Sceptre",
+        "description": "",
+        "points": 1,
+        "image": "https://oldschool.runescape.wiki/images/thumb/Warped_sceptre_detail.png/180px-Warped_sceptre_detail.png?f7367",
+        "requirements": {
+            "itemName": "Warped Sceptre",
+            "itemId": null,
+            "quantity": 1
+        }
+    },
+    "enhanced_tele_seed": {
+        "title": "Enhanced Tele Seed",
+        "description": "",
+        "points": 2,
+        "image": "https://oldschool.runescape.wiki/images/thumb/Enhanced_crystal_teleport_seed_detail.png/180px-Enhanced_crystal_teleport_seed_detail.png?84d93",
+        "requirements": {
+            "itemName": "Enhanced Tele Seed",
+            "itemId": null,
+            "quantity": 1
+        }
+    },
+    "pharaoh_s_sceptre": {
+        "title": "Pharaoh's sceptre",
+        "description": "",
+        "points": 3,
+        "image": "https://oldschool.runescape.wiki/images/thumb/Pharaoh%27s_sceptre_detail.png/180px-Pharaoh%27s_sceptre_detail.png?164e0",
+        "requirements": {
+            "itemName": "Pharaoh's sceptre",
+            "itemId": null,
+            "quantity": 1
+        }
+    },
+    "cut_onyx": {
+        "title": "Cut Onyx",
+        "description": "From Tekton",
+        "points": 4,
+        "image": "https://oldschool.runescape.wiki/images/thumb/Onyx_detail.png/180px-Onyx_detail.png?46915",
+        "requirements": {
+            "itemName": "Cut Onyx",
+            "itemId": null,
+            "quantity": 1
+        }
+    },
+    "guilded_3rd_age": {
+        "title": "Guilded/3rd Age",
+        "description": "no 3rd age ring",
+        "points": 10,
+        "image": "https://oldschool.runescape.wiki/images/thumb/3rd_age_pickaxe_detail.png/180px-3rd_age_pickaxe_detail.png?0bf61",
+        "requirements": {
+            "count": {
+                "quantity": 1,
+                "from": [
+                    {
+                        "itemName": "Gilded spade",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Gilded pickaxe",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Gilded axe",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Gilded hasta",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Gilded spear",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Gilded scimitar",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Gilded 2h sword",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Gilded full helm",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Gilded med helm",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Gilded platebody",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Gilded chainbody",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Gilded platelegs",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Gilded plateskirt",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Gilded kiteshield",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Gilded sq shield",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Gilded defender",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Gilded boots",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Gilded coif",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Gilded d'hide body",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Gilded d'hide chaps",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Gilded d'hide vambraces",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Gilded armour set (lg)",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Gilded armour set (sk)",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "3rd age full helmet",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "3rd age platebody",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "3rd age platelegs",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "3rd age kiteshield",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "3rd age plateskirt",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "3rd age longsword",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "3rd age mage hat",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "3rd age robe top",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "3rd age robe",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "3rd age amulet",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "3rd age wand",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "3rd age range coif",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "3rd age range top",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "3rd age range legs",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "3rd age vambraces",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "3rd age bow",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "3rd age druidic robe top",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "3rd age druidic robe bottoms",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "3rd age druidic cloak",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "3rd age druidic staff",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Ring of 3rd age",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "3rd age axe",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "3rd age felling axe",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "3rd age pickaxe",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "3rd age cloak",
+                        "itemId": null,
+                        "quantity": 1
+                    }
+                ]
+            }
+        }
+    },
+    "gotr_unique": {
+        "title": "GOTR Unique",
+        "description": "Catalytic talisman, Abyssal Lantern or any Abyssal Dye\n",
+        "points": 3,
+        "image": "https://oldschool.runescape.wiki/images/thumb/Abyssal_lantern_detail.png/180px-Abyssal_lantern_detail.png?eca08",
+        "requirements": {
+            "count": {
+                "quantity": 1,
+                "from": [
+                    {
+                        "itemName": "Catalytic talisman",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Abyssal lantern",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Abyssal blue dye",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Abyssal green dye",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Abyssal purple dye",
+                        "itemId": null,
+                        "quantity": 1
+                    }
+                ]
+            }
+        }
+    },
+    "champion_scroll": {
+        "title": "Champion Scroll",
+        "description": "",
+        "points": 7,
+        "image": "https://oldschool.runescape.wiki/images/thumb/Giant_champion_scroll_detail.png/180px-Giant_champion_scroll_detail.png?8698a",
+        "requirements": {
+            "count": {
+                "quantity": 1,
+                "from": [
+                    {
+                        "itemName": "Imp champion scroll",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Goblin champion scroll",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Skeleton champion scroll",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Zombie champion scroll",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Giant champion scroll",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Hobgoblin champion scroll",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Ghoul champion scroll",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Earth warrior champion scroll",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Jogre champion scroll",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Lesser demon champion scroll",
+                        "itemId": null,
+                        "quantity": 1
+                    }
+                ]
+            }
+        }
+    },
+    "Hallowfell Sword": {
+        "title": "Hallowfell Sword",
+        "description": "",
+        "points": 3,
+        "image": "https://oldschool.runescape.wiki/images/thumb/Wyrmscraig_-_Unique_Rewards_%284%29.gif/300px-Wyrmscraig_-_Unique_Rewards_%284%29.gif?c9aa6",
+        "requirements": {
+            "itemName": "Hallowfell Sword",
+            "itemId": null,
+            "quantity": 1
+        }
+    },
+    "any_pet": {
+        "title": "Any Pet",
+        "description": "*BANNED PETS*\nLil' creator\nSkotizo\nChaos Ele\nChompy Chick\nJal-nib-rek (Zuk pet)\nSmol heredit (Colo pet)\nTzrek-jad (Fight cave pet)\nBEEF",
+        "points": 7,
+        "image": "https://oldschool.runescape.wiki/images/thumb/Beaver_detail.png/180px-Beaver_detail.png?fe4bd",
+        "requirements": {
+            "count": {
+                "quantity": 1,
+                "from": [
+                    {
+                        "itemName": "Abyssal orphan",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Baby mole",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Baron",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Bran",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Butch",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Callisto cub",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Dom",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Gull",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Hellpuppy",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Huberte",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Ikkle hydra",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Kalphite princess",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Lil' zik",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Lil'viathan",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Little nightmare",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Maggot marquess",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Moxi",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Muphin",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Nexling",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Nid",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Noon",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Olmlet",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Pet dagannoth prime",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Pet dagannoth rex",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Pet dagannoth supreme",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Pet dark core",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Pet general graardor",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Pet k'ril tsutsaroth",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Pet kraken",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Pet kree'arra",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Pet smoke devil",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Pet snakeling",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Pet zilyana",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Phoenix",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Prince black dragon",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Scorpia's offspring",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Scurry",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Skotos",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Smolcano",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Sraracha",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Tiny tempor",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Tumeken's guardian",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Venenatis spiderling",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Vet'ion jr.",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Vorki",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Wisp",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Yami",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Youngllef",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Baby chinchompa",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Beaver",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Giant squirrel",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Heron",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Rift guardian",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Rock golem",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Rocky",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Soup",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Tangleroot",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Abyssal protector",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Bloodhound",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Herbi",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Pet penance queen",
+                        "itemId": null,
+                        "quantity": 1
+                    },
+                    {
+                        "itemName": "Quetzin",
+                        "itemId": null,
+                        "quantity": 1
+                    }
+                ]
+            }
+        }
+    }
+}
