@@ -81,7 +81,6 @@
     },
     "bryophyta_obor": {
         "tileName": "Bryophyta/Obor",
-        "points": 3,
         "requirements": {
             "any_of": [
                 {
@@ -1505,8 +1504,7 @@
                         },
                         {
                             "itemName": "Guthan's platebody",
-                            "itemId": null,
-                            "quantity": 1
+                            "itemId": null
                         },
                         {
                             "itemName": "Guthan's chainskirt",

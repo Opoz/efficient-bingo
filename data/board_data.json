@@ -1,0 +1,3546 @@
+{
+    "boardData": [
+        [
+            {
+                "colBingo": 0,
+                "description": "",
+                "image": {
+                    "animated": false,
+                    "sourceName": "OSRS Wiki",
+                    "sourceUrl": "https://oldschool.runescape.wiki/w/Blood_shard",
+                    "url": "https://oldschool.runescape.wiki/images/thumb/Blood_shard_detail.png/180px-Blood_shard_detail.png?2fbc7",
+                    "usePixel": false
+                },
+                "points": "2",
+                "rowBingo": 0,
+                "title": "2 Blood Shards"
+            },
+            {
+                "colBingo": 0,
+                "description": "",
+                "image": {
+                    "animated": false,
+                    "sourceName": "OSRS Wiki",
+                    "sourceUrl": "https://oldschool.runescape.wiki/w/Justiciar_faceguard",
+                    "url": "https://oldschool.runescape.wiki/images/thumb/Justiciar_faceguard_detail.png/180px-Justiciar_faceguard_detail.png?b297a",
+                    "usePixel": false
+                },
+                "points": "5",
+                "rowBingo": 0,
+                "title": "2 Tob Purples"
+            },
+            {
+                "colBingo": 0,
+                "description": "",
+                "image": {
+                    "animated": false,
+                    "sourceName": "OSRS Wiki",
+                    "sourceUrl": "https://oldschool.runescape.wiki/w/Ancestral_robe_top",
+                    "url": "https://oldschool.runescape.wiki/images/thumb/Ancestral_robe_top_detail.png/180px-Ancestral_robe_top_detail.png?d12d2",
+                    "usePixel": false
+                },
+                "points": "5",
+                "rowBingo": 0,
+                "title": "2 Cox Purple"
+            },
+            {
+                "colBingo": 0,
+                "description": "",
+                "image": {
+                    "animated": false,
+                    "sourceName": "OSRS Wiki",
+                    "sourceUrl": "https://oldschool.runescape.wiki/w/Lightbearer",
+                    "url": "https://oldschool.runescape.wiki/images/thumb/Lightbearer_detail.png/180px-Lightbearer_detail.png?3576d",
+                    "usePixel": false
+                },
+                "points": "5",
+                "rowBingo": 0,
+                "title": "2 Toa Purple"
+            },
+            {
+                "colBingo": 0,
+                "description": "",
+                "image": {
+                    "animated": false,
+                    "sourceName": "OSRS Wiki",
+                    "sourceUrl": "https://oldschool.runescape.wiki/w/Eclipse_atlatl",
+                    "url": "https://oldschool.runescape.wiki/images/thumb/Eclipse_atlatl_detail.png/180px-Eclipse_atlatl_detail.png?8f887",
+                    "usePixel": false
+                },
+                "points": "3",
+                "rowBingo": 0,
+                "title": "4 Moons Pieces"
+            },
+            {
+                "colBingo": 0,
+                "description": "",
+                "image": {
+                    "animated": false,
+                    "sourceName": "OSRS Wiki",
+                    "sourceUrl": "https://oldschool.runescape.wiki/w/Crystal_armour_seed",
+                    "url": "https://oldschool.runescape.wiki/images/thumb/Crystal_armour_seed_detail.png/180px-Crystal_armour_seed_detail.png?fa149",
+                    "usePixel": false
+                },
+                "points": "2",
+                "rowBingo": 0,
+                "title": "Armor or Enhanced Weapon Seed"
+            },
+            {
+                "colBingo": 0,
+                "description": "1 Bryophyta Essence or 1 Hill Giant Club",
+                "image": {
+                    "animated": false,
+                    "sourceName": "OSRS Wiki",
+                    "sourceUrl": "https://oldschool.runescape.wiki/w/Bryophyta's_essence",
+                    "url": "https://oldschool.runescape.wiki/images/thumb/Bryophyta%27s_essence_detail.png/180px-Bryophyta%27s_essence_detail.png?e56c2",
+                    "usePixel": false
+                },
+                "points": "3",
+                "rowBingo": 0,
+                "title": "Bryophyta/Obor"
+            },
+            {
+                "colBingo": 0,
+                "description": "",
+                "image": {
+                    "animated": false,
+                    "sourceName": "OSRS Wiki",
+                    "sourceUrl": "https://oldschool.runescape.wiki/w/Aranea_boots",
+                    "url": "https://oldschool.runescape.wiki/images/thumb/Aranea_boots_detail.png/180px-Aranea_boots_detail.png?43deb",
+                    "usePixel": false
+                },
+                "points": "1",
+                "rowBingo": 0,
+                "title": "Aranea Boots"
+            },
+            {
+                "colBingo": 0,
+                "description": "Elder venator fang, Crimson Kisten, or Pet",
+                "image": {
+                    "animated": false,
+                    "sourceName": "OSRS Wiki",
+                    "sourceUrl": "https://oldschool.runescape.wiki/w/Necklace_of_rupture",
+                    "url": "https://oldschool.runescape.wiki/images/thumb/Necklace_of_rupture_detail.png/180px-Necklace_of_rupture_detail.png?6c1bd",
+                    "usePixel": false
+                },
+                "points": "4",
+                "rowBingo": 0,
+                "title": "Maggot Unique"
+            },
+            {
+                "colBingo": 0,
+                "description": "",
+                "image": {
+                    "animated": false,
+                    "sourceName": "OSRS Wiki",
+                    "sourceUrl": "https://oldschool.runescape.wiki/w/Dragon_boots",
+                    "url": "https://oldschool.runescape.wiki/images/thumb/Dragon_boots_detail.png/180px-Dragon_boots_detail.png?35048",
+                    "usePixel": false
+                },
+                "points": "1",
+                "rowBingo": 0,
+                "title": "Dragon Boots"
+            }
+        ],
+        [
+            {
+                "colBingo": 0,
+                "description": "ALL 3 Wildy Rings or FULL Voidwaker",
+                "image": {
+                    "animated": false,
+                    "sourceName": "OSRS Wiki",
+                    "sourceUrl": "https://oldschool.runescape.wiki/w/Voidwaker",
+                    "url": "https://oldschool.runescape.wiki/images/thumb/Voidwaker_detail.png/180px-Voidwaker_detail.png?01835",
+                    "usePixel": false
+                },
+                "points": "8",
+                "rowBingo": 0,
+                "title": "Wildy Bosses"
+            },
+            {
+                "colBingo": 0,
+                "description": "",
+                "image": {
+                    "animated": false,
+                    "sourceName": "OSRS Wiki",
+                    "sourceUrl": "https://oldschool.runescape.wiki/w/Zombie_axe",
+                    "url": "https://oldschool.runescape.wiki/images/thumb/Zombie_axe_detail.png/180px-Zombie_axe_detail.png?be691",
+                    "usePixel": false
+                },
+                "points": "2",
+                "rowBingo": 0,
+                "title": "Zombie Axe & Helmet"
+            },
+            {
+                "colBingo": 0,
+                "description": "Oathplate/Horn/Pet\n\n*CANT DO OATHPLATE OR PET CONTRACT*",
+                "image": {
+                    "animated": false,
+                    "sourceName": "OSRS Wiki",
+                    "sourceUrl": "https://oldschool.runescape.wiki/w/Soulflame_horn",
+                    "url": "https://oldschool.runescape.wiki/images/thumb/Soulflame_horn_detail.png/180px-Soulflame_horn_detail.png?4fb4d",
+                    "usePixel": false
+                },
+                "points": "3",
+                "rowBingo": 0,
+                "title": "Yama Unique"
+            },
+            {
+                "colBingo": 0,
+                "description": "Pet Included",
+                "image": {
+                    "animated": false,
+                    "sourceName": "OSRS Wiki",
+                    "sourceUrl": "https://oldschool.runescape.wiki/w/Torva_full_helm",
+                    "url": "https://oldschool.runescape.wiki/images/thumb/Torva_full_helm_detail.png/180px-Torva_full_helm_detail.png?975a0",
+                    "usePixel": false
+                },
+                "points": "6",
+                "rowBingo": 0,
+                "title": "Nex Unique"
+            },
+            {
+                "colBingo": 0,
+                "description": "Pet and Onyx Included",
+                "image": {
+                    "animated": false,
+                    "sourceName": "OSRS Wiki",
+                    "sourceUrl": "https://oldschool.runescape.wiki/w/Toxic_blowpipe",
+                    "url": "https://oldschool.runescape.wiki/images/thumb/Toxic_blowpipe_detail.png/180px-Toxic_blowpipe_detail.png?6a110",
+                    "usePixel": false
+                },
+                "points": "3",
+                "rowBingo": 0,
+                "title": "3 Zulrah Uniques"
+            },
+            {
+                "colBingo": 0,
+                "description": "All 4 Shards + Hilt",
+                "image": {
+                    "animated": false,
+                    "sourceName": "OSRS Wiki",
+                    "sourceUrl": "https://oldschool.runescape.wiki/w/Bandos_godsword",
+                    "url": "https://oldschool.runescape.wiki/images/thumb/Bandos_godsword_detail.png/180px-Bandos_godsword_detail.png?2250a",
+                    "usePixel": false
+                },
+                "points": "4",
+                "rowBingo": 0,
+                "title": "Full Godsword"
+            },
+            {
+                "colBingo": 0,
+                "description": "Any Medium Clue Boot",
+                "image": {
+                    "animated": false,
+                    "sourceName": "OSRS Wiki",
+                    "sourceUrl": "https://oldschool.runescape.wiki/w/Ranger_boots",
+                    "url": "https://oldschool.runescape.wiki/images/thumb/Ranger_boots_detail.png/180px-Ranger_boots_detail.png?e421a",
+                    "usePixel": false
+                },
+                "points": "4",
+                "rowBingo": 0,
+                "title": "Medium Clue Boot"
+            },
+            {
+                "colBingo": 0,
+                "description": "",
+                "image": {
+                    "animated": false,
+                    "sourceName": "OSRS Wiki",
+                    "sourceUrl": "https://oldschool.runescape.wiki/w/Dragon_pickaxe",
+                    "url": "https://oldschool.runescape.wiki/images/thumb/Dragon_pickaxe_detail.png/180px-Dragon_pickaxe_detail.png?4f4ee",
+                    "usePixel": false
+                },
+                "points": "2",
+                "rowBingo": 0,
+                "title": "Dragon Pick"
+            },
+            {
+                "colBingo": 0,
+                "description": "3 Gold ring rolls from any dt2 boss\n\n(1 vestige = 1 gold ring roll)",
+                "image": {
+                    "animated": false,
+                    "sourceName": "OSRS Wiki",
+                    "sourceUrl": "https://oldschool.runescape.wiki/w/Gold_ring",
+                    "url": "https://oldschool.runescape.wiki/images/thumb/Gold_ring_detail.png/180px-Gold_ring_detail.png?8793d",
+                    "usePixel": false
+                },
+                "points": "4",
+                "rowBingo": 0,
+                "title": "3 DT2 Gold Rings"
+            },
+            {
+                "colBingo": 0,
+                "description": "",
+                "image": {
+                    "animated": false,
+                    "sourceName": "OSRS Wiki",
+                    "sourceUrl": "https://oldschool.runescape.wiki/w/Dragon_cannon_barrel",
+                    "url": "https://oldschool.runescape.wiki/images/thumb/Dragon_cannon_barrel_detail.png/180px-Dragon_cannon_barrel_detail.png?b117f",
+                    "usePixel": false
+                },
+                "points": "5",
+                "rowBingo": 0,
+                "title": "Dragon Cannon Barrel"
+            }
+        ],
+        [
+            {
+                "colBingo": 0,
+                "description": "",
+                "image": {
+                    "animated": false,
+                    "sourceName": "OSRS Wiki",
+                    "sourceUrl": "https://oldschool.runescape.wiki/w/Executioner's_axe_head",
+                    "url": "https://oldschool.runescape.wiki/images/thumb/Executioner%27s_axe_head_detail.png/180px-Executioner%27s_axe_head_detail.png?b410d",
+                    "usePixel": false
+                },
+                "points": "4",
+                "rowBingo": 0,
+                "title": "ANY SRA AXE PIECE"
+            },
+            {
+                "colBingo": 0,
+                "description": "",
+                "image": {
+                    "animated": false,
+                    "sourceName": "OSRS Wiki",
+                    "sourceUrl": "https://oldschool.runescape.wiki/w/Venator_shard",
+                    "url": "https://oldschool.runescape.wiki/images/thumb/Venator_shard_detail.png/180px-Venator_shard_detail.png?3ad3e",
+                    "usePixel": false
+                },
+                "points": "3",
+                "rowBingo": 0,
+                "title": "3 Venator Shards"
+            },
+            {
+                "colBingo": 0,
+                "description": "",
+                "image": {
+                    "animated": false,
+                    "sourceName": "OSRS Wiki",
+                    "sourceUrl": "https://oldschool.runescape.wiki/w/Tormented_synapse",
+                    "url": "https://oldschool.runescape.wiki/images/thumb/Tormented_synapse_detail.png/180px-Tormented_synapse_detail.png?27153",
+                    "usePixel": false
+                },
+                "points": "3",
+                "rowBingo": 0,
+                "title": "Tormented Demons Unique"
+            },
+            {
+                "colBingo": 0,
+                "description": "GET Glacial temotli, Sulphur blades and Earthbound Tecpatl",
+                "image": {
+                    "animated": false,
+                    "sourceName": "OSRS Wiki",
+                    "sourceUrl": "https://oldschool.runescape.wiki/w/Sulphur_blades",
+                    "url": "https://oldschool.runescape.wiki/images/thumb/Sulphur_blades_detail.png/180px-Sulphur_blades_detail.png?f6d50",
+                    "usePixel": false
+                },
+                "points": "3",
+                "rowBingo": 0,
+                "title": "Akimbo Weapons"
+            },
+            {
+                "colBingo": 0,
+                "description": "Both Halves",
+                "image": {
+                    "animated": false,
+                    "sourceName": "OSRS Wiki",
+                    "sourceUrl": "https://oldschool.runescape.wiki/w/Twinflame_staff",
+                    "url": "https://oldschool.runescape.wiki/images/thumb/Twinflame_staff_detail.png/180px-Twinflame_staff_detail.png?e1e78",
+                    "usePixel": false
+                },
+                "points": "2",
+                "rowBingo": 0,
+                "title": "Full Twinflame Staff"
+            },
+            {
+                "colBingo": 0,
+                "description": "any 1 of the 3\nsmouldering stone does not count",
+                "image": {
+                    "animated": false,
+                    "sourceName": "OSRS Wiki",
+                    "sourceUrl": "https://oldschool.runescape.wiki/w/Pegasian_crystal",
+                    "url": "https://oldschool.runescape.wiki/images/thumb/Pegasian_crystal_detail.png/180px-Pegasian_crystal_detail.png?7887c",
+                    "usePixel": false
+                },
+                "points": "3",
+                "rowBingo": 0,
+                "title": "Cerb Crystal (only boot upgrade)"
+            },
+            {
+                "colBingo": 0,
+                "description": "NO Serpentine Visage",
+                "image": {
+                    "animated": false,
+                    "sourceName": "OSRS Wiki",
+                    "sourceUrl": "https://oldschool.runescape.wiki/w/Draconic_visage",
+                    "url": "https://oldschool.runescape.wiki/images/thumb/Draconic_visage_detail.png/180px-Draconic_visage_detail.png?6edab",
+                    "usePixel": false
+                },
+                "points": "8",
+                "rowBingo": 0,
+                "title": "Visage"
+            },
+            {
+                "colBingo": 0,
+                "description": "",
+                "image": {
+                    "animated": false,
+                    "sourceName": "OSRS Wiki",
+                    "sourceUrl": "https://oldschool.runescape.wiki/w/Immaculate_mole_skin",
+                    "url": "https://oldschool.runescape.wiki/images/thumb/Immaculate_mole_skin_detail.png/180px-Immaculate_mole_skin_detail.png?d9f06",
+                    "usePixel": false
+                },
+                "points": "2",
+                "rowBingo": 0,
+                "title": "5 immaculate mole skins"
+            },
+            {
+                "colBingo": 0,
+                "description": "From boss or Normal Gargs",
+                "image": {
+                    "animated": false,
+                    "sourceName": "OSRS Wiki",
+                    "sourceUrl": "https://oldschool.runescape.wiki/w/Granite_maul",
+                    "url": "https://oldschool.runescape.wiki/images/thumb/Granite_maul_detail.png/180px-Granite_maul_detail.png?75031",
+                    "usePixel": false
+                },
+                "points": "1",
+                "rowBingo": 0,
+                "title": "Granite Maul"
+            },
+            {
+                "colBingo": 0,
+                "description": "",
+                "image": {
+                    "animated": false,
+                    "sourceName": "OSRS Wiki",
+                    "sourceUrl": "https://oldschool.runescape.wiki/w/Chromium_ingot",
+                    "url": "https://oldschool.runescape.wiki/images/thumb/Chromium_ingot_detail.png/180px-Chromium_ingot_detail.png?b410d",
+                    "usePixel": false
+                },
+                "points": "1",
+                "rowBingo": 0,
+                "title": "Chromium Ingot"
+            }
+        ],
+        [
+            {
+                "colBingo": 0,
+                "description": "ANY 1 Tail, Leather, Claw, Pet\n\nOR 3 Pieces of the ring Eye, Fang, Heart",
+                "image": {
+                    "animated": false,
+                    "sourceName": "OSRS Wiki",
+                    "sourceUrl": "https://oldschool.runescape.wiki/w/Hydra's_claw",
+                    "url": "https://oldschool.runescape.wiki/images/thumb/Hydra%27s_claw_detail.png/180px-Hydra%27s_claw_detail.png?994b3",
+                    "usePixel": false
+                },
+                "points": "4",
+                "rowBingo": 0,
+                "title": "Alchemical Hydra Unique"
+            },
+            {
+                "colBingo": 0,
+                "description": "",
+                "image": {
+                    "animated": false,
+                    "sourceName": "OSRS Wiki",
+                    "sourceUrl": "https://oldschool.runescape.wiki/w/Virtus_robe_top",
+                    "url": "https://oldschool.runescape.wiki/images/thumb/Virtus_robe_top_detail.png/180px-Virtus_robe_top_detail.png?b2b4a",
+                    "usePixel": false
+                },
+                "points": "5",
+                "rowBingo": 0,
+                "title": "Any Virtus Piece"
+            },
+            {
+                "colBingo": 0,
+                "description": "*BANNED PETS*\nLil' creator\nSkotizo\nChaos Ele\nChompy Chick\nJal-nib-rek (Zuk pet)\nSmol heredit (Colo pet)\nTzrek-jad (Fight cave pet)\nBEEF",
+                "image": {
+                    "animated": false,
+                    "sourceName": "OSRS Wiki",
+                    "sourceUrl": "https://oldschool.runescape.wiki/w/Beaver",
+                    "url": "https://oldschool.runescape.wiki/images/thumb/Beaver_detail.png/180px-Beaver_detail.png?fe4bd",
+                    "usePixel": false
+                },
+                "points": "7",
+                "rowBingo": 0,
+                "title": "Any Pet"
+            },
+            {
+                "colBingo": 0,
+                "description": "ALL Ancient statuettes + Weapons/Avarice count\n\nCANT BE FROM REV BOSS",
+                "image": {
+                    "animated": false,
+                    "sourceName": "OSRS Wiki",
+                    "sourceUrl": "https://oldschool.runescape.wiki/w/Ancient_totem",
+                    "url": "https://oldschool.runescape.wiki/images/thumb/Ancient_totem_detail.png/180px-Ancient_totem_detail.png?63bac",
+                    "usePixel": false
+                },
+                "points": "2",
+                "rowBingo": 0,
+                "title": "Any Rev Unique"
+            },
+            {
+                "colBingo": 0,
+                "description": "",
+                "image": {
+                    "animated": false,
+                    "sourceName": "OSRS Wiki",
+                    "sourceUrl": "https://oldschool.runescape.wiki/w/Black_mask",
+                    "url": "https://oldschool.runescape.wiki/images/thumb/Black_mask_detail.png/180px-Black_mask_detail.png?5b902",
+                    "usePixel": false
+                },
+                "points": "1",
+                "rowBingo": 0,
+                "title": "Black Mask"
+            },
+            {
+                "colBingo": 0,
+                "description": "anything but gmaul",
+                "image": {
+                    "animated": false,
+                    "sourceName": "OSRS Wiki",
+                    "sourceUrl": "https://oldschool.runescape.wiki/w/Black_tourmaline_core",
+                    "url": "https://oldschool.runescape.wiki/images/thumb/Black_tourmaline_core_detail.png/180px-Black_tourmaline_core_detail.png?6db72",
+                    "usePixel": false
+                },
+                "points": "3",
+                "rowBingo": 0,
+                "title": "Grotesque Guardians Unique"
+            },
+            {
+                "colBingo": 0,
+                "description": "*NO BOOSTING*",
+                "image": {
+                    "animated": false,
+                    "sourceName": "OSRS Wiki",
+                    "sourceUrl": "https://oldschool.runescape.wiki/w/Zenyte_shard",
+                    "url": "https://oldschool.runescape.wiki/images/thumb/Zenyte_shard_detail.png/180px-Zenyte_shard_detail.png?c5a63",
+                    "usePixel": false
+                },
+                "points": "3",
+                "rowBingo": 0,
+                "title": "Zenyte Shard"
+            },
+            {
+                "colBingo": 0,
+                "description": "",
+                "image": {
+                    "animated": false,
+                    "sourceName": "OSRS Wiki",
+                    "sourceUrl": "https://oldschool.runescape.wiki/w/Magma_mutagen",
+                    "url": "https://oldschool.runescape.wiki/images/thumb/Magma_mutagen_detail.png/180px-Magma_mutagen_detail.png?0551e",
+                    "usePixel": false
+                },
+                "points": "10",
+                "rowBingo": 0,
+                "title": "Any Mutagen"
+            },
+            {
+                "colBingo": 0,
+                "description": "",
+                "image": {
+                    "animated": false,
+                    "sourceName": "OSRS Wiki",
+                    "sourceUrl": "https://oldschool.runescape.wiki/w/Dark_bow",
+                    "url": "https://oldschool.runescape.wiki/images/thumb/Dark_bow_detail.png/180px-Dark_bow_detail.png?71f6b",
+                    "usePixel": false
+                },
+                "points": "1",
+                "rowBingo": 0,
+                "title": "Dark Bow"
+            },
+            {
+                "colBingo": 0,
+                "description": "",
+                "image": {
+                    "animated": false,
+                    "sourceName": "OSRS Wiki",
+                    "sourceUrl": "https://oldschool.runescape.wiki/w/Sarachnis_cudgel",
+                    "url": "https://oldschool.runescape.wiki/images/thumb/Sarachnis_cudgel_detail.png/180px-Sarachnis_cudgel_detail.png?f9ce8",
+                    "usePixel": false
+                },
+                "points": "1",
+                "rowBingo": 0,
+                "title": "Sarachnis Cudgel"
+            }
+        ],
+        [
+            {
+                "colBingo": 0,
+                "description": "*NO CORP BOOSTING*",
+                "image": {
+                    "animated": false,
+                    "sourceName": "OSRS Wiki",
+                    "sourceUrl": "https://oldschool.runescape.wiki/w/Elysian_spirit_shield",
+                    "url": "https://oldschool.runescape.wiki/images/thumb/Elysian_spirit_shield_detail.png/180px-Elysian_spirit_shield_detail.png?e83cd",
+                    "usePixel": false
+                },
+                "points": "10",
+                "rowBingo": 0,
+                "title": "Corp Sigil"
+            },
+            {
+                "colBingo": 0,
+                "description": "",
+                "image": {
+                    "animated": false,
+                    "sourceName": "OSRS Wiki",
+                    "sourceUrl": "https://oldschool.runescape.wiki/w/Aquanite_tendon",
+                    "url": "https://oldschool.runescape.wiki/images/thumb/Aquanite_tendon_detail.png/180px-Aquanite_tendon_detail.png?73e60",
+                    "usePixel": false
+                },
+                "points": "2",
+                "rowBingo": 0,
+                "title": "Aquanite Tendon"
+            },
+            {
+                "colBingo": 0,
+                "description": "",
+                "image": {
+                    "animated": false,
+                    "sourceName": "OSRS Wiki",
+                    "sourceUrl": "https://oldschool.runescape.wiki/w/Saturated_heart",
+                    "url": "https://oldschool.runescape.wiki/images/thumb/Saturated_heart_detail.png/180px-Saturated_heart_detail.png?6167b",
+                    "usePixel": false
+                },
+                "points": "10",
+                "rowBingo": 0,
+                "title": "Imbued Heart/Eternal Gem"
+            },
+            {
+                "colBingo": 0,
+                "description": "1 of either Tome of water/fire OR 2 Tomes of Earth",
+                "image": {
+                    "animated": false,
+                    "sourceName": "OSRS Wiki",
+                    "sourceUrl": "https://oldschool.runescape.wiki/w/Tome_of_fire",
+                    "url": "https://oldschool.runescape.wiki/images/thumb/Tome_of_fire_detail.png/180px-Tome_of_fire_detail.png?b9bae",
+                    "usePixel": false
+                },
+                "points": "4",
+                "rowBingo": 0,
+                "title": "TOMES"
+            },
+            {
+                "colBingo": 0,
+                "description": "Shard/Tool Seed/Pet",
+                "image": {
+                    "animated": false,
+                    "sourceName": "OSRS Wiki",
+                    "sourceUrl": "https://oldschool.runescape.wiki/w/Zalcano_shard",
+                    "url": "https://oldschool.runescape.wiki/images/thumb/Zalcano_shard_detail.png/180px-Zalcano_shard_detail.png?f52af",
+                    "usePixel": false
+                },
+                "points": "7",
+                "rowBingo": 0,
+                "title": "Zalcano Unique"
+            },
+            {
+                "colBingo": 0,
+                "description": "No egg or tablet",
+                "image": {
+                    "animated": false,
+                    "sourceName": "OSRS Wiki",
+                    "sourceUrl": "https://oldschool.runescape.wiki/w/Nightmare_staff",
+                    "url": "https://oldschool.runescape.wiki/images/thumb/Nightmare_staff_detail.png/180px-Nightmare_staff_detail.png?51fcd",
+                    "usePixel": false
+                },
+                "points": "7",
+                "rowBingo": 0,
+                "title": "Nightmare Unique"
+            },
+            {
+                "colBingo": 0,
+                "description": "any 1 Scythe/Tbow/Shadow",
+                "image": {
+                    "animated": false,
+                    "sourceName": "OSRS Wiki",
+                    "sourceUrl": "https://oldschool.runescape.wiki/w/Scythe_of_vitur",
+                    "url": "https://oldschool.runescape.wiki/images/thumb/Scythe_of_vitur_detail.png/180px-Scythe_of_vitur_detail.png?939b9",
+                    "usePixel": false
+                },
+                "points": "10",
+                "rowBingo": 0,
+                "title": "Any Mega"
+            },
+            {
+                "colBingo": 0,
+                "description": "",
+                "image": {
+                    "animated": false,
+                    "sourceName": "OSRS Wiki",
+                    "sourceUrl": "https://oldschool.runescape.wiki/w/Dragon_chainbody",
+                    "url": "https://oldschool.runescape.wiki/images/thumb/Dragon_chainbody_detail.png/180px-Dragon_chainbody_detail.png?35048",
+                    "usePixel": false
+                },
+                "points": "3",
+                "rowBingo": 0,
+                "title": "Dragon Chainbody"
+            },
+            {
+                "colBingo": 0,
+                "description": "1 of any Claws of Callisto/Fangs of Venenatis/Skull of Vetion",
+                "image": {
+                    "animated": false,
+                    "sourceName": "OSRS Wiki",
+                    "sourceUrl": "https://oldschool.runescape.wiki/w/Claws_of_callisto",
+                    "url": "https://oldschool.runescape.wiki/images/thumb/Claws_of_callisto_detail.png/180px-Claws_of_callisto_detail.png?bb22e",
+                    "usePixel": false
+                },
+                "points": "2",
+                "rowBingo": 0,
+                "title": "Wilderness Weapon Upgrade"
+            },
+            {
+                "colBingo": 0,
+                "description": "",
+                "image": {
+                    "animated": false,
+                    "sourceName": "OSRS Wiki",
+                    "sourceUrl": "https://oldschool.runescape.wiki/w/Dragonbone_necklace",
+                    "url": "https://oldschool.runescape.wiki/images/thumb/Dragonbone_necklace_detail.png/180px-Dragonbone_necklace_detail.png?132ed",
+                    "usePixel": false
+                },
+                "points": "5",
+                "rowBingo": 0,
+                "title": "Dragonbone Necklace"
+            }
+        ],
+        [
+            {
+                "colBingo": 0,
+                "description": "No TOA kits",
+                "image": {
+                    "animated": false,
+                    "sourceName": "OSRS Wiki",
+                    "sourceUrl": "https://oldschool.runescape.wiki/w/Sanguine_dust",
+                    "url": "https://oldschool.runescape.wiki/images/thumb/Sanguine_dust_detail.png/180px-Sanguine_dust_detail.png?831a8",
+                    "usePixel": false
+                },
+                "points": "6",
+                "rowBingo": 0,
+                "title": "Raid Kit/Dust"
+            },
+            {
+                "colBingo": 0,
+                "description": "any full barrows set",
+                "image": {
+                    "animated": false,
+                    "sourceName": "OSRS Wiki",
+                    "sourceUrl": "https://oldschool.runescape.wiki/w/Dharok's_greataxe",
+                    "url": "https://oldschool.runescape.wiki/images/thumb/Dharok%27s_greataxe_detail.png/180px-Dharok%27s_greataxe_detail.png?d8a0b",
+                    "usePixel": false
+                },
+                "points": "4",
+                "rowBingo": 0,
+                "title": "FULL BARROWS SET"
+            },
+            {
+                "colBingo": 0,
+                "description": "1 Fang or 3 hally drops or Pet",
+                "image": {
+                    "animated": false,
+                    "sourceName": "OSRS Wiki",
+                    "sourceUrl": "https://oldschool.runescape.wiki/w/Noxious_halberd",
+                    "url": "https://oldschool.runescape.wiki/images/thumb/Noxious_halberd_detail.png/180px-Noxious_halberd_detail.png?fa0de",
+                    "usePixel": false
+                },
+                "points": "4",
+                "rowBingo": 0,
+                "title": "Arraxor Unique"
+            },
+            {
+                "colBingo": 0,
+                "description": "",
+                "image": {
+                    "animated": false,
+                    "sourceName": "OSRS Wiki",
+                    "sourceUrl": "https://oldschool.runescape.wiki/w/Unsired",
+                    "url": "https://oldschool.runescape.wiki/images/thumb/Unsired_detail.png/180px-Unsired_detail.png?36d00",
+                    "usePixel": false
+                },
+                "points": "3",
+                "rowBingo": 0,
+                "title": "3 Unsired"
+            },
+            {
+                "colBingo": 0,
+                "description": "",
+                "image": {
+                    "animated": false,
+                    "sourceName": "OSRS Wiki",
+                    "sourceUrl": "https://oldschool.runescape.wiki/w/Kbd_heads",
+                    "url": "https://oldschool.runescape.wiki/images/thumb/Kbd_heads_detail.png/180px-Kbd_heads_detail.png?a6345",
+                    "usePixel": false
+                },
+                "points": "1",
+                "rowBingo": 0,
+                "title": "KBD head"
+            },
+            {
+                "colBingo": 0,
+                "description": "",
+                "image": {
+                    "animated": false,
+                    "sourceName": "OSRS Wiki",
+                    "sourceUrl": "https://oldschool.runescape.wiki/w/Mask_of_ranul",
+                    "url": "https://oldschool.runescape.wiki/images/thumb/Mask_of_ranul_detail.png/180px-Mask_of_ranul_detail.png?4f67e",
+                    "usePixel": false
+                },
+                "points": "2",
+                "rowBingo": 0,
+                "title": "Mask of Ranul"
+            },
+            {
+                "colBingo": 0,
+                "description": "",
+                "image": {
+                    "animated": false,
+                    "sourceName": "OSRS Wiki",
+                    "sourceUrl": "https://oldschool.runescape.wiki/w/Shield_left_half",
+                    "url": "https://oldschool.runescape.wiki/images/thumb/Shield_left_half_detail.png/180px-Shield_left_half_detail.png?c8bbf",
+                    "usePixel": false
+                },
+                "points": "1",
+                "rowBingo": 0,
+                "title": "Shield Left Half"
+            },
+            {
+                "colBingo": 0,
+                "description": "NO PET",
+                "image": {
+                    "animated": false,
+                    "sourceName": "OSRS Wiki",
+                    "sourceUrl": "https://oldschool.runescape.wiki/w/Tonalztics_of_ralos",
+                    "url": "https://oldschool.runescape.wiki/images/thumb/Tonalztics_of_ralos_detail.png/180px-Tonalztics_of_ralos_detail.png?fa107",
+                    "usePixel": false
+                },
+                "points": "4",
+                "rowBingo": 0,
+                "title": "Colo Unique"
+            },
+            {
+                "colBingo": 0,
+                "description": "",
+                "image": {
+                    "animated": false,
+                    "sourceName": "OSRS Wiki",
+                    "sourceUrl": "https://oldschool.runescape.wiki/w/Bottled_storm",
+                    "url": "https://oldschool.runescape.wiki/images/thumb/Bottled_storm_detail.png/180px-Bottled_storm_detail.png?6fd35",
+                    "usePixel": false
+                },
+                "points": "3",
+                "rowBingo": 0,
+                "title": "Bottled Storm"
+            },
+            {
+                "colBingo": 0,
+                "description": "",
+                "image": {
+                    "animated": false,
+                    "sourceName": "OSRS Wiki",
+                    "sourceUrl": "https://oldschool.runescape.wiki/w/Ring_of_endurance",
+                    "url": "https://oldschool.runescape.wiki/images/thumb/Ring_of_endurance_detail.png/180px-Ring_of_endurance_detail.png?2f9f3",
+                    "usePixel": false
+                },
+                "points": "5",
+                "rowBingo": 0,
+                "title": "Ring of Endurance"
+            }
+        ],
+        [
+            {
+                "colBingo": 0,
+                "description": "",
+                "image": {
+                    "animated": false,
+                    "sourceName": "OSRS Wiki",
+                    "sourceUrl": "https://oldschool.runescape.wiki/w/Jar_of_eyes",
+                    "url": "https://oldschool.runescape.wiki/images/thumb/Jar_of_eyes_detail.png/180px-Jar_of_eyes_detail.png?7bdc6",
+                    "usePixel": false
+                },
+                "points": "7",
+                "rowBingo": 0,
+                "title": "Boss Jar"
+            },
+            {
+                "colBingo": 0,
+                "description": "1 Curved bone",
+                "image": {
+                    "animated": false,
+                    "sourceName": "OSRS Wiki",
+                    "sourceUrl": "https://oldschool.runescape.wiki/w/Curved_bone",
+                    "url": "https://oldschool.runescape.wiki/images/thumb/Curved_bone_detail.png/180px-Curved_bone_detail.png?2315b",
+                    "usePixel": false
+                },
+                "points": "5",
+                "rowBingo": 0,
+                "title": "Curved bone"
+            },
+            {
+                "colBingo": 0,
+                "description": "Either Full Odium or Malediction Shield",
+                "image": {
+                    "animated": false,
+                    "sourceName": "OSRS Wiki",
+                    "sourceUrl": "https://oldschool.runescape.wiki/w/Odium_ward",
+                    "url": "https://oldschool.runescape.wiki/images/thumb/Odium_ward_detail.png/180px-Odium_ward_detail.png?49661",
+                    "usePixel": false
+                },
+                "points": "3",
+                "rowBingo": 0,
+                "title": "Wildy Shield"
+            },
+            {
+                "colBingo": 0,
+                "description": "Obtain the BEEF pet",
+                "image": {
+                    "animated": false,
+                    "sourceName": "OSRS Wiki",
+                    "sourceUrl": "https://oldschool.runescape.wiki/w/Beef",
+                    "url": "https://oldschool.runescape.wiki/images/thumb/Beef_detail.png/180px-Beef_detail.png?cd843",
+                    "usePixel": false
+                },
+                "points": "2",
+                "rowBingo": 0,
+                "title": "BEEF"
+            },
+            {
+                "colBingo": 0,
+                "description": "Tentacle, Trident, pet, or jar all count",
+                "image": {
+                    "animated": false,
+                    "sourceName": "OSRS Wiki",
+                    "sourceUrl": "https://oldschool.runescape.wiki/w/Kraken_tentacle",
+                    "url": "https://oldschool.runescape.wiki/images/thumb/Kraken_tentacle_detail.png/180px-Kraken_tentacle_detail.png?e5f2a",
+                    "usePixel": false
+                },
+                "points": "2",
+                "rowBingo": 0,
+                "title": "Kraken Unique (Boss Only)"
+            },
+            {
+                "colBingo": 0,
+                "description": "",
+                "image": {
+                    "animated": false,
+                    "sourceName": "OSRS Wiki",
+                    "sourceUrl": "https://oldschool.runescape.wiki/w/Brine_sabre",
+                    "url": "https://oldschool.runescape.wiki/images/thumb/Brine_sabre_detail.png/180px-Brine_sabre_detail.png?1f853",
+                    "usePixel": false
+                },
+                "points": "1",
+                "rowBingo": 0,
+                "title": "Brine Sabre"
+            },
+            {
+                "colBingo": 0,
+                "description": "3 heads",
+                "image": {
+                    "animated": false,
+                    "sourceName": "OSRS Wiki",
+                    "sourceUrl": "https://oldschool.runescape.wiki/w/Vorkath's_head",
+                    "url": "https://oldschool.runescape.wiki/images/thumb/Vorkath%27s_head_detail.png/180px-Vorkath%27s_head_detail.png?d5b97",
+                    "usePixel": false
+                },
+                "points": "2",
+                "rowBingo": 0,
+                "title": "3 Vorkath Heads"
+            },
+            {
+                "colBingo": 0,
+                "description": "All 4 Dag Kings Rings",
+                "image": {
+                    "animated": false,
+                    "sourceName": "OSRS Wiki",
+                    "sourceUrl": "https://oldschool.runescape.wiki/w/Berserker_ring",
+                    "url": "https://oldschool.runescape.wiki/images/thumb/Berserker_ring_detail.png/180px-Berserker_ring_detail.png?81f8b",
+                    "usePixel": false
+                },
+                "points": "4",
+                "rowBingo": 0,
+                "title": "Dag King Rings"
+            },
+            {
+                "colBingo": 0,
+                "description": "",
+                "image": {
+                    "animated": false,
+                    "sourceName": "OSRS Wiki",
+                    "sourceUrl": "https://oldschool.runescape.wiki/w/Steel_ring",
+                    "url": "https://oldschool.runescape.wiki/images/thumb/Steel_ring_detail.png/180px-Steel_ring_detail.png?33393",
+                    "usePixel": false
+                },
+                "points": "1",
+                "rowBingo": 0,
+                "title": "Steel ring"
+            },
+            {
+                "colBingo": 0,
+                "description": "Any 1 Piece of the set",
+                "image": {
+                    "animated": false,
+                    "sourceName": "OSRS Wiki",
+                    "sourceUrl": "https://oldschool.runescape.wiki/w/Elder_chaos_top",
+                    "url": "https://oldschool.runescape.wiki/images/thumb/Elder_chaos_top_detail.png/180px-Elder_chaos_top_detail.png?19a96",
+                    "usePixel": false
+                },
+                "points": "2",
+                "rowBingo": 0,
+                "title": "Elder Chaos Robes"
+            }
+        ],
+        [
+            {
+                "colBingo": 0,
+                "description": "1 Dragon Hunter Wand",
+                "image": {
+                    "animated": false,
+                    "sourceName": "OSRS Wiki",
+                    "sourceUrl": "https://oldschool.runescape.wiki/w/Dragon_hunter_wand",
+                    "url": "https://oldschool.runescape.wiki/images/thumb/Dragon_hunter_wand_detail.png/180px-Dragon_hunter_wand_detail.png?a3e16",
+                    "usePixel": false
+                },
+                "points": "3",
+                "rowBingo": 0,
+                "title": "Dragon Hunter Wand"
+            },
+            {
+                "colBingo": 0,
+                "description": "",
+                "image": {
+                    "animated": false,
+                    "sourceName": "OSRS Wiki",
+                    "sourceUrl": "https://oldschool.runescape.wiki/w/Saradomin_sword",
+                    "url": "https://oldschool.runescape.wiki/images/thumb/Saradomin_sword_detail.png/180px-Saradomin_sword_detail.png?5539e",
+                    "usePixel": false
+                },
+                "points": "3",
+                "rowBingo": 0,
+                "title": "Sara Unique"
+            },
+            {
+                "colBingo": 0,
+                "description": "",
+                "image": {
+                    "animated": false,
+                    "sourceName": "OSRS Wiki",
+                    "sourceUrl": "https://oldschool.runescape.wiki/w/Staff_of_the_dead",
+                    "url": "https://oldschool.runescape.wiki/images/thumb/Staff_of_the_dead_detail.png/180px-Staff_of_the_dead_detail.png?aa8b8",
+                    "usePixel": false
+                },
+                "points": "3",
+                "rowBingo": 0,
+                "title": "K'rill Unique"
+            },
+            {
+                "colBingo": 0,
+                "description": "",
+                "image": {
+                    "animated": false,
+                    "sourceName": "OSRS Wiki",
+                    "sourceUrl": "https://oldschool.runescape.wiki/w/Bandos_chestplate",
+                    "url": "https://oldschool.runescape.wiki/images/thumb/Bandos_chestplate_detail.png/180px-Bandos_chestplate_detail.png?98028",
+                    "usePixel": false
+                },
+                "points": "3",
+                "rowBingo": 0,
+                "title": "Bandos Unique"
+            },
+            {
+                "colBingo": 0,
+                "description": "",
+                "image": {
+                    "animated": false,
+                    "sourceName": "OSRS Wiki",
+                    "sourceUrl": "https://oldschool.runescape.wiki/w/Armadyl_chestplate",
+                    "url": "https://oldschool.runescape.wiki/images/thumb/Armadyl_chestplate_detail.png/180px-Armadyl_chestplate_detail.png?78ba5",
+                    "usePixel": false
+                },
+                "points": "3",
+                "rowBingo": 0,
+                "title": "Kree Unique"
+            },
+            {
+                "colBingo": 0,
+                "description": "Occult or smoke staff FROM THERMY",
+                "image": {
+                    "animated": false,
+                    "sourceName": "OSRS Wiki",
+                    "sourceUrl": "https://oldschool.runescape.wiki/w/Occult_necklace",
+                    "url": "https://oldschool.runescape.wiki/images/thumb/Occult_necklace_detail.png/180px-Occult_necklace_detail.png?08adc",
+                    "usePixel": false
+                },
+                "points": "2",
+                "rowBingo": 0,
+                "title": "Thermy Unique"
+            },
+            {
+                "colBingo": 0,
+                "description": "",
+                "image": {
+                    "animated": false,
+                    "sourceName": "OSRS Wiki",
+                    "sourceUrl": "https://oldschool.runescape.wiki/w/Belle's_folly",
+                    "url": "https://oldschool.runescape.wiki/images/thumb/Belle%27s_folly_detail.png/180px-Belle%27s_folly_detail.png?d3419",
+                    "usePixel": false
+                },
+                "points": "1",
+                "rowBingo": 0,
+                "title": "Belle's Folly"
+            },
+            {
+                "colBingo": 0,
+                "description": "",
+                "image": {
+                    "animated": false,
+                    "sourceName": "OSRS Wiki",
+                    "sourceUrl": "https://oldschool.runescape.wiki/w/Obsidian_cape",
+                    "url": "https://oldschool.runescape.wiki/images/thumb/Obsidian_cape_detail.png/180px-Obsidian_cape_detail.png?84706",
+                    "usePixel": false
+                },
+                "points": "1",
+                "rowBingo": 0,
+                "title": "Obby cape"
+            },
+            {
+                "colBingo": 0,
+                "description": "pet counts",
+                "image": {
+                    "animated": false,
+                    "sourceName": "OSRS Wiki",
+                    "sourceUrl": "https://oldschool.runescape.wiki/w/Eye_of_ayak",
+                    "url": "https://oldschool.runescape.wiki/images/thumb/Eye_of_ayak_detail.png/180px-Eye_of_ayak_detail.png?0bf26",
+                    "usePixel": false
+                },
+                "points": "4",
+                "rowBingo": 0,
+                "title": "Doom Unique"
+            },
+            {
+                "colBingo": 0,
+                "description": "any 1 of the 3, (Golden Egg, Fox Whistle, Petal Garland)\n\n*NO BUYING ANY OF THE DROPS*",
+                "image": {
+                    "animated": false,
+                    "sourceName": "OSRS Wiki",
+                    "sourceUrl": "https://oldschool.runescape.wiki/w/Golden_pheasant_egg",
+                    "url": "https://oldschool.runescape.wiki/images/thumb/Golden_pheasant_egg_detail.png/180px-Golden_pheasant_egg_detail.png?db719",
+                    "usePixel": false
+                },
+                "points": "3",
+                "rowBingo": 0,
+                "title": "Forestry"
+            }
+        ],
+        [
+            {
+                "colBingo": 0,
+                "description": "",
+                "image": {
+                    "animated": false,
+                    "sourceName": "OSRS Wiki",
+                    "sourceUrl": "https://oldschool.runescape.wiki/w/Fedora",
+                    "url": "https://oldschool.runescape.wiki/images/thumb/Fedora_detail.png/180px-Fedora_detail.png?1c5ef",
+                    "usePixel": false
+                },
+                "points": "1",
+                "rowBingo": 0,
+                "title": "Fedora"
+            },
+            {
+                "colBingo": 0,
+                "description": "",
+                "image": {
+                    "animated": false,
+                    "sourceName": "OSRS Wiki",
+                    "sourceUrl": "https://oldschool.runescape.wiki/w/Antler_guard",
+                    "url": "https://oldschool.runescape.wiki/images/thumb/Antler_guard_detail.png/180px-Antler_guard_detail.png?a40bf",
+                    "usePixel": false
+                },
+                "points": "1",
+                "rowBingo": 0,
+                "title": "Antler Guard"
+            },
+            {
+                "colBingo": 0,
+                "description": "",
+                "image": {
+                    "animated": false,
+                    "sourceName": "OSRS Wiki",
+                    "sourceUrl": "https://oldschool.runescape.wiki/w/Warped_sceptre",
+                    "url": "https://oldschool.runescape.wiki/images/thumb/Warped_sceptre_detail.png/180px-Warped_sceptre_detail.png?f7367",
+                    "usePixel": false
+                },
+                "points": "1",
+                "rowBingo": 0,
+                "title": "Warped Sceptre"
+            },
+            {
+                "colBingo": 0,
+                "description": "",
+                "image": {
+                    "animated": false,
+                    "sourceName": "OSRS Wiki",
+                    "sourceUrl": "https://oldschool.runescape.wiki/w/Enhanced_crystal_teleport_seed",
+                    "url": "https://oldschool.runescape.wiki/images/thumb/Enhanced_crystal_teleport_seed_detail.png/180px-Enhanced_crystal_teleport_seed_detail.png?84d93",
+                    "usePixel": false
+                },
+                "points": "2",
+                "rowBingo": 0,
+                "title": "Enhanced Tele Seed"
+            },
+            {
+                "colBingo": 0,
+                "description": "",
+                "image": {
+                    "animated": false,
+                    "sourceName": "OSRS Wiki",
+                    "sourceUrl": "https://oldschool.runescape.wiki/w/Pharaoh's_sceptre",
+                    "url": "https://oldschool.runescape.wiki/images/thumb/Pharaoh%27s_sceptre_detail.png/180px-Pharaoh%27s_sceptre_detail.png?164e0",
+                    "usePixel": false
+                },
+                "points": "3",
+                "rowBingo": 0,
+                "title": "Pharaoh's sceptre"
+            },
+            {
+                "colBingo": 0,
+                "description": "From Tekton",
+                "image": {
+                    "animated": false,
+                    "sourceName": "OSRS Wiki",
+                    "sourceUrl": "https://oldschool.runescape.wiki/w/Onyx",
+                    "url": "https://oldschool.runescape.wiki/images/thumb/Onyx_detail.png/180px-Onyx_detail.png?46915",
+                    "usePixel": false
+                },
+                "points": "4",
+                "rowBingo": 0,
+                "title": "Cut Onyx"
+            },
+            {
+                "colBingo": 0,
+                "description": "no 3rd age ring",
+                "image": {
+                    "animated": false,
+                    "sourceName": "OSRS Wiki",
+                    "sourceUrl": "https://oldschool.runescape.wiki/w/3rd_age_pickaxe",
+                    "url": "https://oldschool.runescape.wiki/images/thumb/3rd_age_pickaxe_detail.png/180px-3rd_age_pickaxe_detail.png?0bf61",
+                    "usePixel": false
+                },
+                "points": "10",
+                "rowBingo": 0,
+                "title": "Guilded/3rd Age"
+            },
+            {
+                "colBingo": 0,
+                "description": "Catalytic talisman, Abyssal Lantern or any Abyssal Dye\n",
+                "image": {
+                    "animated": false,
+                    "sourceName": "OSRS Wiki",
+                    "sourceUrl": "https://oldschool.runescape.wiki/w/Abyssal_lantern",
+                    "url": "https://oldschool.runescape.wiki/images/thumb/Abyssal_lantern_detail.png/180px-Abyssal_lantern_detail.png?eca08",
+                    "usePixel": false
+                },
+                "points": "3",
+                "rowBingo": 0,
+                "title": "GOTR Unique"
+            },
+            {
+                "colBingo": 0,
+                "description": "",
+                "image": {
+                    "animated": false,
+                    "sourceName": "OSRS Wiki",
+                    "sourceUrl": "https://oldschool.runescape.wiki/w/Giant_champion_scroll",
+                    "url": "https://oldschool.runescape.wiki/images/thumb/Giant_champion_scroll_detail.png/180px-Giant_champion_scroll_detail.png?8698a",
+                    "usePixel": false
+                },
+                "points": "7",
+                "rowBingo": 0,
+                "title": "Champion Scroll"
+            },
+            {
+                "colBingo": 0,
+                "description": "Obtain the Hallowfell Sword on the NEW sailing island \"Wyrmscraig\"\n\n (Releasing July 29th)",
+                "image": null,
+                "points": "3",
+                "rowBingo": 0,
+                "title": "Hallowfell Sword"
+            }
+        ]
+    ],
+    "boardType": "osrs",
+    "generalPassword": "Plankers",
+    "teamData": [
+        {
+            "data": {
+                "name": "Whizzurd Mind Bombs",
+                "teamData": [
+                    [
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        }
+                    ],
+                    [
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        }
+                    ],
+                    [
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        }
+                    ],
+                    [
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        }
+                    ],
+                    [
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        }
+                    ],
+                    [
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        }
+                    ],
+                    [
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        }
+                    ],
+                    [
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        }
+                    ],
+                    [
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        }
+                    ]
+                ]
+            },
+            "team": 0
+        },
+        {
+            "data": {
+                "name": "2 GMs 1 Bruce",
+                "teamData": [
+                    [
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        }
+                    ],
+                    [
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        }
+                    ],
+                    [
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        }
+                    ],
+                    [
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        }
+                    ],
+                    [
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        }
+                    ],
+                    [
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        }
+                    ],
+                    [
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        }
+                    ],
+                    [
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        }
+                    ],
+                    [
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        }
+                    ]
+                ]
+            },
+            "team": 1
+        },
+        {
+            "data": {
+                "name": "Bruce's Big Chest",
+                "teamData": [
+                    [
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        }
+                    ],
+                    [
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        }
+                    ],
+                    [
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        }
+                    ],
+                    [
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        }
+                    ],
+                    [
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        }
+                    ],
+                    [
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        }
+                    ],
+                    [
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        }
+                    ],
+                    [
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        }
+                    ],
+                    [
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        }
+                    ]
+                ]
+            },
+            "team": 2
+        },
+        {
+            "data": {
+                "name": "Sm0kes Devils",
+                "teamData": [
+                    [
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        }
+                    ],
+                    [
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        }
+                    ],
+                    [
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        }
+                    ],
+                    [
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        }
+                    ],
+                    [
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        }
+                    ],
+                    [
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        }
+                    ],
+                    [
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        }
+                    ],
+                    [
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        }
+                    ],
+                    [
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        },
+                        {
+                            "checked": false,
+                            "currPoints": 0,
+                            "proof": "",
+                            "proofImages": []
+                        }
+                    ]
+                ]
+            },
+            "team": 3
+        }
+    ],
+    "teamPasswordsRequired": true,
+    "visibleRows": 9
+}
