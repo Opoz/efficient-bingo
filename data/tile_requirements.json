@@ -1606,26 +1606,23 @@
                     "quantity": 1
                 },
                 {
-                    "count": {
-                        "quantity": 1,
-                        "from": [
-                            {
-                                "itemName": "Noxious pommel",
-                                "itemId": null,
-                                "quantity": 1
-                            },
-                            {
-                                "itemName": "Noxious point",
-                                "itemId": null,
-                                "quantity": 1
-                            },
-                            {
-                                "itemName": "Noxious blade",
-                                "itemId": null,
-                                "quantity": 1
-                            }
-                        ]
-                    }
+                    "all_of": [
+                        {
+                            "itemName": "Noxious pommel",
+                            "itemId": null,
+                            "quantity": 1
+                        },
+                        {
+                            "itemName": "Noxious point",
+                            "itemId": null,
+                            "quantity": 1
+                        },
+                        {
+                            "itemName": "Noxious blade",
+                            "itemId": null,
+                            "quantity": 1
+                        }
+                    ]
                 },
                 {
                     "itemName": "Nid",
