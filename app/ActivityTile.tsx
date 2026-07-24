@@ -60,8 +60,12 @@ export function ActivityTile({
 
     return (
         // Activities: cooler neutral left border to distinguish from tiles.
-        <Card className="w-full max-w-[420px] border-l-4 border-l-osrs-border">
-            <CardHeader className="pb-3">
+        // Fixed height + internal scroll — every card is the same height
+        // regardless of edge count, so the grid never has to reconcile
+        // mismatched card heights. Only the edges list scrolls; the KPH
+        // input and the points/hour summary stay put.
+        <Card className="flex h-[400px] w-full flex-col border-l-4 border-l-osrs-border">
+            <CardHeader className="shrink-0 pb-3">
                 <div className="text-[10px] uppercase tracking-widest text-muted-foreground">
                     Activity
                 </div>
@@ -69,8 +73,8 @@ export function ActivityTile({
                     {activity.name}
                 </div>
             </CardHeader>
-            <CardContent className="space-y-3">
-                <div className="flex items-center gap-2 text-xs text-muted-foreground">
+            <CardContent className="flex flex-1 flex-col space-y-3 overflow-hidden">
+                <div className="flex shrink-0 items-center gap-2 text-xs text-muted-foreground">
                     <span>KPH ×</span>
                     <Input
                         type="number"
@@ -83,7 +87,7 @@ export function ActivityTile({
                     />
                 </div>
 
-                <ul className="space-y-2 text-xs">
+                <ul className="flex-1 space-y-2 overflow-y-auto text-xs">
                     {activity.edges.map((edge, i) => {
                         const found = findGoal(model, edge.goalId);
                         if (!found) return null;
@@ -158,7 +162,7 @@ export function ActivityTile({
                     })}
                 </ul>
 
-                <div className="flex items-baseline justify-between border-t border-border pt-3">
+                <div className="flex shrink-0 items-baseline justify-between border-t border-border pt-3">
                     <span className="text-[11px] uppercase tracking-wide text-muted-foreground">
                         Points / hour
                     </span>

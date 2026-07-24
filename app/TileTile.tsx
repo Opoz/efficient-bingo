@@ -34,8 +34,11 @@ export function TileTile({
     const done = istileDone(tile);
     return (
         // tiles: gold-tinted left border to distinguish from activities.
-        <Card className="w-full max-w-[420px] border-l-4 border-l-osrs-gold">
-            <CardHeader className="pb-3">
+        // Fixed height + internal scroll — every card is the same height
+        // regardless of content, so the surrounding grid never has to
+        // reconcile mismatched card heights.
+        <Card className="flex h-[400px] w-full flex-col border-l-4 border-l-osrs-gold">
+            <CardHeader className="shrink-0 pb-3">
                 <div className="flex items-start justify-between gap-2">
                     <div>
                         <div className="text-[10px] uppercase tracking-widest text-muted-foreground">
@@ -54,7 +57,7 @@ export function TileTile({
                     )}
                 </div>
             </CardHeader>
-            <CardContent className="space-y-3">
+            <CardContent className="flex-1 space-y-3 overflow-y-auto">
                 {tile.groups.map((group) => (
                     <GroupBlock
                         key={group.id}

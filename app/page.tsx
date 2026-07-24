@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
+import { ChevronLeft, ChevronRight } from "lucide-react";
 import type { Activity, Model, tile } from "@/lib/model";
 import {
     activityPointsPerHour,
@@ -18,6 +19,7 @@ import { ActivityTile } from "./ActivityTile";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { buildModel } from "@/lib/buildModel";
+import { cn } from "@/lib/utils";
 
 export default function Page() {
     // First render always uses the plain seed (matches the server render, so no
@@ -26,6 +28,8 @@ export default function Page() {
     const [model, setModel] = useState<Model>(buildModel());
     const [query, setQuery] = useState("");
     const [hydrated, setHydrated] = useState(false);
+    const [tilesCollapsed, setTilesCollapsed] = useState(false);
+    const [activitiesCollapsed, setActivitiesCollapsed] = useState(false);
 
     // On mount (client only): overlay saved progress/KPH onto the seed.
     useEffect(() => {
@@ -116,56 +120,131 @@ export default function Page() {
                 </Button>
             </header>
 
-            <div className="grid min-h-0 flex-1 grid-cols-1 gap-4 p-4 md:grid-cols-2">
-                <section className="flex min-h-0 flex-col gap-3.5 overflow-y-auto pr-1">
-                    <h2 className="sticky top-0 z-10 m-0 bg-background pb-2 pt-1 text-xs uppercase tracking-widest text-osrs-gold">
-                        tiles
-                    </h2>
-                    {visibletiles.map((tile) => (
-                        <TileTile
-                            key={tile.id}
-                            tile={tile}
-                            onIncrementGoal={(goalId) =>
-                                setModel((m) => incrementGoal(m, goalId))
-                            }
-                            onDecrementGoal={(goalId) =>
-                                setModel((m) => decrementGoal(m, goalId))
-                            }
-                        />
-                    ))}
-                    {visibletiles.length === 0 && (
-                        <p className="text-sm italic text-muted-foreground">
-                            No matching tiles.
-                        </p>
+            <div
+                className={cn(
+                    "grid min-h-0 flex-1 grid-cols-1 gap-4 p-4",
+                    tilesCollapsed && activitiesCollapsed
+                        ? "md:grid-cols-[auto_auto]"
+                        : tilesCollapsed
+                          ? "md:grid-cols-[auto_1fr]"
+                          : activitiesCollapsed
+                            ? "md:grid-cols-[1fr_auto]"
+                            : "md:grid-cols-2",
+                )}
+            >
+                <section
+                    className={cn(
+                        "flex min-h-0 flex-col overflow-y-auto",
+                        !tilesCollapsed && "pr-1",
+                    )}
+                >
+                    <div className="sticky top-0 z-10 flex items-center justify-between gap-2 bg-background pb-2 pt-1">
+                        {!tilesCollapsed && (
+                            <h2 className="m-0 text-xs uppercase tracking-widest text-osrs-gold">
+                                tiles
+                            </h2>
+                        )}
+                        <Button
+                            variant="ghost"
+                            size="icon"
+                            className="h-6 w-6 shrink-0 text-muted-foreground hover:text-osrs-gold"
+                            onClick={() => setTilesCollapsed((v) => !v)}
+                            title={tilesCollapsed ? "Show tiles" : "Hide tiles"}
+                        >
+                            {tilesCollapsed ? (
+                                <ChevronRight className="h-4 w-4" />
+                            ) : (
+                                <ChevronLeft className="h-4 w-4" />
+                            )}
+                        </Button>
+                    </div>
+                    {!tilesCollapsed && (
+                        <div className="grid grid-cols-[repeat(auto-fill,minmax(340px,1fr))] gap-3.5">
+                            {visibletiles.map((tile) => (
+                                <TileTile
+                                    key={tile.id}
+                                    tile={tile}
+                                    onIncrementGoal={(goalId) =>
+                                        setModel((m) =>
+                                            incrementGoal(m, goalId),
+                                        )
+                                    }
+                                    onDecrementGoal={(goalId) =>
+                                        setModel((m) =>
+                                            decrementGoal(m, goalId),
+                                        )
+                                    }
+                                />
+                            ))}
+                            {visibletiles.length === 0 && (
+                                <p className="text-sm italic text-muted-foreground">
+                                    No matching tiles.
+                                </p>
+                            )}
+                        </div>
                     )}
                 </section>
 
-                <section className="flex min-h-0 flex-col gap-3.5 overflow-y-auto pr-1">
-                    <h2 className="sticky top-0 z-10 m-0 bg-background pb-2 pt-1 text-xs uppercase tracking-widest text-osrs-gold">
-                        Activities
-                    </h2>
-                    {visibleActivities.map((activity) => (
-                        <ActivityTile
-                            key={activity.id}
-                            model={model}
-                            activity={activity}
-                            onKPHChange={(KPH) =>
-                                setModel((m) =>
-                                    setActivityKPH(m, activity.id, KPH),
-                                )
+                <section
+                    className={cn(
+                        "flex min-h-0 flex-col overflow-y-auto",
+                        !activitiesCollapsed && "pr-1",
+                    )}
+                >
+                    <div className="sticky top-0 z-10 flex items-center justify-between gap-2 bg-background pb-2 pt-1">
+                        {!activitiesCollapsed && (
+                            <h2 className="m-0 text-xs uppercase tracking-widest text-osrs-gold">
+                                Activities
+                            </h2>
+                        )}
+                        <Button
+                            variant="ghost"
+                            size="icon"
+                            className="h-6 w-6 shrink-0 text-muted-foreground hover:text-osrs-gold"
+                            onClick={() => setActivitiesCollapsed((v) => !v)}
+                            title={
+                                activitiesCollapsed
+                                    ? "Show activities"
+                                    : "Hide activities"
                             }
-                            onIncrementGoal={(goalId) =>
-                                setModel((m) => incrementGoal(m, goalId))
-                            }
-                            onDecrementGoal={(goalId) =>
-                                setModel((m) => decrementGoal(m, goalId))
-                            }
-                        />
-                    ))}
-                    {visibleActivities.length === 0 && (
-                        <p className="text-sm italic text-muted-foreground">
-                            No matching activities.
-                        </p>
+                        >
+                            {activitiesCollapsed ? (
+                                <ChevronLeft className="h-4 w-4" />
+                            ) : (
+                                <ChevronRight className="h-4 w-4" />
+                            )}
+                        </Button>
+                    </div>
+                    {!activitiesCollapsed && (
+                        <div className="grid grid-cols-[repeat(auto-fill,minmax(340px,1fr))] gap-3.5">
+                            {visibleActivities.map((activity) => (
+                                <ActivityTile
+                                    key={activity.id}
+                                    model={model}
+                                    activity={activity}
+                                    onKPHChange={(KPH) =>
+                                        setModel((m) =>
+                                            setActivityKPH(m, activity.id, KPH),
+                                        )
+                                    }
+                                    onIncrementGoal={(goalId) =>
+                                        setModel((m) =>
+                                            incrementGoal(m, goalId),
+                                        )
+                                    }
+                                    onDecrementGoal={(goalId) =>
+                                        setModel((m) =>
+                                            decrementGoal(m, goalId),
+                                        )
+                                    }
+                                />
+                            ))}
+                            {visibleActivities.length === 0 && (
+                                <p className="text-sm italic text-muted-foreground">
+                                    No matching activities.
+                                </p>
+                            )}
+                        </div>
                     )}
                 </section>
             </div>

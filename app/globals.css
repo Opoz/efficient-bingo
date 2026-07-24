@@ -3,65 +3,77 @@
 @tailwind utilities;
 
 @layer base {
-  :root {
-    /* --- OSRS raw palette (available as CSS vars too) --- */
-    --osrs-yellow: #ffcf3f;
-    --osrs-gold: #e6a519;
-    --osrs-brown: #694d23;
-    --osrs-dark-brown: #382d1a;
-    --osrs-black: #0f0f0f;
-    --osrs-green: #00ff00;
-    --osrs-red: #ff0000;
-    --osrs-blue: #0088ff;
-    --osrs-chat: #00ffff;
-    --osrs-background: #2e2c29;
-    --osrs-border: #474745;
-    --osrs-panel: #46433a;
+    :root {
+        /* --- OSRS raw palette (available as CSS vars too) --- */
+        --osrs-yellow: #ffcf3f;
+        --osrs-gold: #e6a519;
+        --osrs-brown: #694d23;
+        --osrs-dark-brown: #382d1a;
+        --osrs-black: #0f0f0f;
+        --osrs-green: #00ff00;
+        --osrs-red: #ff0000;
+        --osrs-blue: #0088ff;
+        --osrs-chat: #00ffff;
+        --osrs-background: #2e2c29;
+        --osrs-border: #474745;
+        --osrs-panel: #46433a;
 
-    /* --- shadcn semantic tokens mapped to OSRS (dark by default) --- */
-    --background: 40 6% 17%; /* #2E2C29 */
-    --foreground: 43 40% 88%; /* warm off-white */
+        /* --- shadcn semantic tokens mapped to OSRS (dark by default) --- */
+        --background: 40 6% 17%; /* #2E2C29 */
+        --foreground: 43 40% 88%; /* warm off-white */
 
-    --card: 41 10% 25%; /* #46433A panel */
-    --card-foreground: 43 40% 88%;
+        --card: 41 10% 25%; /* #46433A panel */
+        --card-foreground: 43 40% 88%;
 
-    --popover: 41 10% 22%;
-    --popover-foreground: 43 40% 88%;
+        --popover: 41 10% 22%;
+        --popover-foreground: 43 40% 88%;
 
-    --primary: 41 82% 50%; /* #E6A519 gold */
-    --primary-foreground: 30 40% 8%; /* dark text on gold */
+        --primary: 41 82% 50%; /* #E6A519 gold */
+        --primary-foreground: 30 40% 8%; /* dark text on gold */
 
-    --secondary: 41 8% 32%; /* muted panel-brown */
-    --secondary-foreground: 43 40% 88%;
+        --secondary: 41 8% 32%; /* muted panel-brown */
+        --secondary-foreground: 43 40% 88%;
 
-    --muted: 41 8% 30%;
-    --muted-foreground: 43 15% 68%;
+        --muted: 41 8% 30%;
+        --muted-foreground: 43 15% 68%;
 
-    --accent: 45 100% 62%; /* #FFCF3F yellow accent */
-    --accent-foreground: 30 40% 8%;
+        --accent: 45 100% 62%; /* #FFCF3F yellow accent */
+        --accent-foreground: 30 40% 8%;
 
-    --destructive: 0 100% 50%; /* #FF0000, used sparingly */
-    --destructive-foreground: 43 40% 92%;
+        --destructive: 0 100% 50%; /* #FF0000, used sparingly */
+        --destructive-foreground: 43 40% 92%;
 
-    --border: 60 2% 27%; /* #474745 */
-    --input: 60 2% 27%;
-    --ring: 41 82% 50%; /* gold focus ring */
+        --border: 60 2% 27%; /* #474745 */
+        --input: 60 2% 27%;
+        --ring: 41 82% 50%; /* gold focus ring */
 
-    --radius: 0.5rem;
-  }
+        --radius: 0.5rem;
+    }
 }
 
 @layer base {
-  * {
-    @apply border-border;
-  }
-  html,
-  body {
-    height: 100%;
-  }
-  body {
-    @apply bg-background text-foreground;
-    font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
-    overflow: hidden;
-  }
+    * {
+        @apply border-border;
+    }
+    html,
+    body {
+        height: 100%;
+    }
+    html {
+        /* Nudges every rem-based Tailwind text size up proportionally — the
+       runescape font reads a bit small/thin next to the previous sans at
+       the same nominal size. */
+        font-size: 13 0%;
+    }
+    body {
+        @apply bg-background text-foreground;
+        font-family:
+            var(--font-runescape),
+            system-ui,
+            -apple-system,
+            "Segoe UI",
+            Roboto,
+            sans-serif;
+        overflow: hidden;
+    }
 }
