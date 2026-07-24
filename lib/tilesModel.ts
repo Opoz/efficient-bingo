@@ -10,7 +10,7 @@ import type {
     Model,
     PoolGroup,
     RequirementGroup,
-    Task,
+    tile,
 } from "./model.ts";
 
 // ---------- JSON shape types ------------------------------------------------
@@ -174,8 +174,8 @@ function walkGoals(
 // One item name can appear in multiple tiles (multiple goal IDs).
 export function buildItemGoalIndex(model: Model): Map<string, string[]> {
     const index = new Map<string, string[]>();
-    for (const task of model.tasks) {
-        for (const group of task.groups) {
+    for (const tile of model.tiles) {
+        for (const group of tile.groups) {
             walkGoals(group, (goal) => {
                 const slug = itemSlug(goal.name);
                 const existing = index.get(slug);
@@ -189,8 +189,8 @@ export function buildItemGoalIndex(model: Model): Map<string, string[]> {
 
 // ---------- Public API ------------------------------------------------------
 
-export function tilesToModel(tiles: Record<string, JsonTile>): Model {
-    const tasks: Task[] = Object.entries(tiles).map(([key, tile]) => {
+export function tilesToModel(tilesInput: Record<string, JsonTile>): Model {
+    const tiles: tile[] = Object.entries(tilesInput).map(([key, tile]) => {
         const name = tile.title ?? tile.tileName ?? key;
         const points = tile.points ?? 0;
 
@@ -201,5 +201,5 @@ export function tilesToModel(tiles: Record<string, JsonTile>): Model {
         return { id: key, name, points, groups: [group] };
     });
 
-    return { tasks, activities: [] };
+    return { tiles, activities: [] };
 }

@@ -8,7 +8,7 @@
 import type { GoalMember, Model } from "./model";
 import { groupGoals } from "./model";
 
-const STORAGE_KEY = "task-activity-sim:v1";
+const STORAGE_KEY = "tile-activity-sim:v1";
 
 interface PersistedState {
     version: 1;
@@ -23,8 +23,8 @@ function hasStorage(): boolean {
 // Derive the saveable maps from the current model.
 export function deriveSaved(model: Model): PersistedState {
     const progress: Record<string, number> = {};
-    for (const task of model.tasks) {
-        for (const group of task.groups) {
+    for (const tile of model.tiles) {
+        for (const group of tile.groups) {
             for (const goal of groupGoals(group)) {
                 progress[goal.id] = goal.progress;
             }
@@ -92,9 +92,9 @@ export function hydrateModel(seed: Model): Model {
     const saved = readSaved();
     if (!saved) return seed;
 
-    const tasks = seed.tasks.map((task) => ({
-        ...task,
-        groups: task.groups.map((group) => {
+    const tiles = seed.tiles.map((tile) => ({
+        ...tile,
+        groups: tile.groups.map((group) => {
             if (group.kind === "count") {
                 return {
                     ...group,
@@ -129,7 +129,7 @@ export function hydrateModel(seed: Model): Model {
         return valid ? { ...activity, KPH: s } : activity;
     });
 
-    return { ...seed, tasks, activities };
+    return { ...seed, tiles, activities };
 }
 
 function applyMember(

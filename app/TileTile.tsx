@@ -5,14 +5,14 @@ import type {
     Goal,
     PoolGroup,
     RequirementGroup,
-    Task,
+    tile,
 } from "@/lib/model";
 import {
     isBundleSatisfied,
     isGoalSatisfied,
     isGroupSatisfied,
     isMemberSatisfied,
-    isTaskDone,
+    istileDone,
     poolProgress,
     remaining,
 } from "@/lib/model";
@@ -22,40 +22,40 @@ import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import { Progress } from "@/components/ui/progress";
 import { cn } from "@/lib/utils";
 
-export function TaskTile({
-    task,
+export function TileTile({
+    tile,
     onIncrementGoal,
     onDecrementGoal,
 }: {
-    task: Task;
+    tile: tile;
     onIncrementGoal: (goalId: string) => void;
     onDecrementGoal: (goalId: string) => void;
 }) {
-    const done = isTaskDone(task);
+    const done = istileDone(tile);
     return (
-        // Tasks: gold-tinted left border to distinguish from activities.
+        // tiles: gold-tinted left border to distinguish from activities.
         <Card className="w-full max-w-[420px] border-l-4 border-l-osrs-gold">
             <CardHeader className="pb-3">
                 <div className="flex items-start justify-between gap-2">
                     <div>
                         <div className="text-[10px] uppercase tracking-widest text-muted-foreground">
-                            Task
+                            tile
                         </div>
                         <div className="text-base font-semibold text-osrs-yellow">
-                            {task.name}
+                            {tile.name}
                         </div>
                     </div>
                     {done ? (
                         <Badge variant="success">DONE</Badge>
                     ) : (
                         <Badge variant="gold">
-                            {task.points} point{task.points === 1 ? "" : "s"}
+                            {tile.points} point{tile.points === 1 ? "" : "s"}
                         </Badge>
                     )}
                 </div>
             </CardHeader>
             <CardContent className="space-y-3">
-                {task.groups.map((group) => (
+                {tile.groups.map((group) => (
                     <GroupBlock
                         key={group.id}
                         group={group}

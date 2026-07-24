@@ -59,7 +59,7 @@ export function ActivityTile({
     };
 
     return (
-        // Activities: cooler neutral left border to distinguish from tasks.
+        // Activities: cooler neutral left border to distinguish from tiles.
         <Card className="w-full max-w-[420px] border-l-4 border-l-osrs-border">
             <CardHeader className="pb-3">
                 <div className="text-[10px] uppercase tracking-widest text-muted-foreground">
@@ -107,7 +107,7 @@ export function ActivityTile({
                                     <span className="truncate">
                                         → {found.goal.name}{" "}
                                         <span className="text-muted-foreground">
-                                            ({found.task.name})
+                                            ({found.tile.name})
                                         </span>
                                     </span>
                                     <span className="tabular-nums text-osrs-gold">

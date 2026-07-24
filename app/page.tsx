@@ -1,19 +1,19 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
-import type { Activity, Model, Task } from "@/lib/model";
+import type { Activity, Model, tile } from "@/lib/model";
 import {
     activityPointsPerHour,
     decrementGoal,
     findGoal,
     groupGoals,
     incrementGoal,
-    isTaskDone,
+    istileDone,
     setActivityKPH,
 } from "@/lib/model";
 import { seedModel } from "@/lib/seed";
 import { clearSaved, hydrateModel, saveModel } from "@/lib/persistence";
-import { TaskTile } from "./TaskTile";
+import { TileTile } from "./TileTile";
 import { ActivityTile } from "./ActivityTile";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -52,23 +52,23 @@ export default function Page() {
 
     const q = query.trim().toLowerCase();
 
-    // --- Tasks: filter, then sort done-to-bottom, points desc, name asc ---
-    const visibleTasks = useMemo(() => {
-        const matches = (task: Task) => {
+    // --- tiles: filter, then sort done-to-bottom, points desc, name asc ---
+    const visibletiles = useMemo(() => {
+        const matches = (tile: tile) => {
             if (!q) return true;
-            if (task.name.toLowerCase().includes(q)) return true;
-            return task.groups.some((g) =>
+            if (tile.name.toLowerCase().includes(q)) return true;
+            return tile.groups.some((g) =>
                 groupGoals(g).some((goal) =>
                     goal.name.toLowerCase().includes(q),
                 ),
             );
         };
-        return model.tasks
+        return model.tiles
             .filter(matches)
             .slice()
             .sort((a, b) => {
-                const aDone = isTaskDone(a);
-                const bDone = isTaskDone(b);
+                const aDone = istileDone(a);
+                const bDone = istileDone(b);
                 if (aDone !== bDone) return aDone ? 1 : -1; // not-done first
                 if (b.points !== a.points) return b.points - a.points; // points desc
                 return a.name.localeCompare(b.name); // name asc
@@ -107,7 +107,7 @@ export default function Page() {
                 <Input
                     type="text"
                     className="mx-auto h-9 max-w-[480px]"
-                    placeholder="Search tasks & activities…"
+                    placeholder="Search tiles & activities…"
                     value={query}
                     onChange={(e) => setQuery(e.target.value)}
                 />
@@ -119,12 +119,12 @@ export default function Page() {
             <div className="grid min-h-0 flex-1 grid-cols-1 gap-4 p-4 md:grid-cols-2">
                 <section className="flex min-h-0 flex-col gap-3.5 overflow-y-auto pr-1">
                     <h2 className="sticky top-0 z-10 m-0 bg-background pb-2 pt-1 text-xs uppercase tracking-widest text-osrs-gold">
-                        Tasks
+                        tiles
                     </h2>
-                    {visibleTasks.map((task) => (
-                        <TaskTile
-                            key={task.id}
-                            task={task}
+                    {visibletiles.map((tile) => (
+                        <TileTile
+                            key={tile.id}
+                            tile={tile}
                             onIncrementGoal={(goalId) =>
                                 setModel((m) => incrementGoal(m, goalId))
                             }
@@ -133,9 +133,9 @@ export default function Page() {
                             }
                         />
                     ))}
-                    {visibleTasks.length === 0 && (
+                    {visibletiles.length === 0 && (
                         <p className="text-sm italic text-muted-foreground">
-                            No matching tasks.
+                            No matching tiles.
                         </p>
                     )}
                 </section>

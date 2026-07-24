@@ -1,4 +1,4 @@
-// Pure model for the task-activity contribution system.
+// Pure model for the tile-activity contribution system.
 // No React, no side effects here — just types and pure functions.
 
 export interface Goal {
@@ -80,7 +80,7 @@ export function isBundleSatisfied(bundle: Bundle): boolean {
     return bundle.goals.every(isGoalSatisfied);
 }
 
-export interface Task {
+export interface tile {
     id: string;
     name: string;
     points: number; // multiplier, e.g. 1, 2, 3
@@ -102,7 +102,7 @@ export interface Activity {
 }
 
 export interface Model {
-    tasks: Task[];
+    tiles: tile[];
     activities: Activity[];
 }
 
@@ -130,20 +130,20 @@ export function isGroupSatisfied(group: RequirementGroup): boolean {
     return group.bundles.some(isBundleSatisfied);
 }
 
-// A task is done when every group is satisfied.
-export function isTaskDone(task: Task): boolean {
-    return task.groups.every(isGroupSatisfied);
+// A tile is done when every group is satisfied.
+export function istileDone(tile: tile): boolean {
+    return tile.groups.every(isGroupSatisfied);
 }
 
-// Locate a goal along with its owning task and group.
+// Locate a goal along with its owning tile and group.
 export function findGoal(
     model: Model,
     goalId: string,
-): { goal: Goal; group: RequirementGroup; task: Task } | undefined {
-    for (const task of model.tasks) {
-        for (const group of task.groups) {
+): { goal: Goal; group: RequirementGroup; tile: tile } | undefined {
+    for (const tile of model.tiles) {
+        for (const group of tile.groups) {
             const goal = groupGoals(group).find((g) => g.id === goalId);
-            if (goal) return { goal, group, task };
+            if (goal) return { goal, group, tile };
         }
     }
     return undefined;
@@ -181,9 +181,9 @@ export function effectiveContribution(
     return Math.min(raw, effectiveRemaining(model, edge.goalId));
 }
 
-// How many of a task's points a single fully-satisfied goal is worth, an
+// How many of a tile's points a single fully-satisfied goal is worth, an
 // equal share at each AND join:
-// - across the task's groups (every group required)
+// - across the tile's groups (every group required)
 // - across a count group's `requiredCount` members (not `goals.length` — an
 //   OR/K-of-N group's un-needed alternatives don't dilute the share; each
 //   candidate is valued as if it were one of the K that end up mattering)
@@ -223,13 +223,13 @@ function findGoalShare(
 }
 
 // Points earned per unit of progress on a goal — the goal's equal share of
-// its task's points (see findGoalShare), spread across its own target so
+// its tile's points (see findGoalShare), spread across its own target so
 // that fully completing the goal earns exactly its share, not its share
 // multiplied by however many units the goal needed.
 export function goalPointsPerUnit(model: Model, goalId: string): number {
     const found = findGoal(model, goalId);
     if (!found || found.goal.target <= 0) return 0;
-    const groupShare = found.task.points / found.task.groups.length;
+    const groupShare = found.tile.points / found.tile.groups.length;
     const share = findGoalShare(found.group, goalId, groupShare) ?? 0;
     return share / found.goal.target;
 }
@@ -298,9 +298,9 @@ function mapCountMembers(
 function mapGoals(model: Model, fn: (goal: Goal) => Goal): Model {
     return {
         ...model,
-        tasks: model.tasks.map((task) => ({
-            ...task,
-            groups: task.groups.map((group): RequirementGroup => {
+        tiles: model.tiles.map((tile) => ({
+            ...tile,
+            groups: tile.groups.map((group): RequirementGroup => {
                 if (group.kind === "count") {
                     return {
                         ...group,

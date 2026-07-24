@@ -1,4 +1,4 @@
-// Transforms tile_requirements.json into the Model task format.
+// Transforms tile_requirements.json into the Model tile format.
 // Activities are not present in the tile data — the caller is responsible
 // for populating model.activities separately.
 //
