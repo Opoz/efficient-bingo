@@ -26,6 +26,8 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const TILES_PATH = path.join(__dirname, "../data/tile_requirements.json");
 const DROPS_PATH = path.join(__dirname, "../data/drops.json");
 const OUT_PATH = path.join(__dirname, "../data/drops_formatted.json");
+const KPH_PATH = path.join(__dirname, "../data/kph.json");
+
 
 interface JsonDrop {
     name: string;
@@ -89,9 +91,14 @@ function buildActivities(): { activities: Activity[]; skipped: SkippedDrop[] } {
     const tilesRaw = JSON.parse(fs.readFileSync(TILES_PATH, "utf8"));
     const model = tilesToModel(tilesRaw);
     const itemGoalIndex = buildItemGoalIndex(model);
+
     const dropsRaw = JSON.parse(
         fs.readFileSync(DROPS_PATH, "utf8"),
     ) as JsonDrops;
+
+    const kphData = JSON.parse(
+        fs.readFileSync(KPH_PATH, "utf8"),
+    ) as Record<string, number>;
 
     const activities: Activity[] = [];
     const skipped: SkippedDrop[] = [];
@@ -122,12 +129,14 @@ function buildActivities(): { activities: Activity[]; skipped: SkippedDrop[] } {
             }
         }
 
-        if (edges.length === 0) continue; // this source feeds nothing we track
+        if (edges.length === 0) continue;
+
+        const id = uniqueId(itemSlug(source), usedIds);
 
         activities.push({
-            id: uniqueId(itemSlug(source), usedIds),
+            id,
             name: source,
-            KPH: 1,
+            KPH: kphData[itemSlug(source)] ?? 1,
             edges,
         });
     }
