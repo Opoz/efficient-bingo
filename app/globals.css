@@ -3,6 +3,13 @@
 
 @layer base {
     :root {
+        /* Same signal as the <meta name="color-scheme"> tag in layout.tsx —
+           tells the browser (and dark-mode extensions like Dark Reader)
+           this page is intentionally dark, so they don't try to reprocess
+           it and introduce a color/hue shift. Also themes native form
+           controls (scrollbars, etc.) to match. */
+        color-scheme: dark;
+
         /* --- OSRS raw palette (available as CSS vars too) --- */
         --osrs-yellow: #ffcf3f;
         --osrs-gold: #e6a519;
