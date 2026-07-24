@@ -16,6 +16,8 @@ import { seedModel } from "@/lib/seed";
 import { clearSaved, hydrateModel, saveModel } from "@/lib/persistence";
 import { TileTile } from "./TileTile";
 import { ActivityTile } from "./ActivityTile";
+import { InfoDialog } from "./InfoDialog";
+import { ArrowOverlayDialog } from "./ArrowOverlayDialog";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import {
@@ -111,32 +113,34 @@ export default function Page() {
     return (
         <div className="flex h-screen flex-col overflow-hidden bg-background text-foreground">
             <header className="z-20 flex flex-shrink-0 items-center gap-3 border-b border-border bg-osrs-dark-brown/60 px-4 py-2.5 backdrop-blur">
-                <span className="whitespace-nowrap text-sm font-bold tracking-wide text-osrs-yellow">
-                    Bingo Estimator
-                </span>
+                <div className="flex flex-1 items-center">
+                    <span className="whitespace-nowrap text-sm font-bold tracking-wide text-osrs-yellow">
+                        Bingo Estimator
+                    </span>
+                </div>
                 <Input
                     type="text"
-                    className="mx-auto h-9 max-w-[480px]"
+                    className="h-9 w-full max-w-[480px]"
                     placeholder="Search tiles & activities…"
                     value={query}
                     onChange={(e) => setQuery(e.target.value)}
                 />
-                <TooltipProvider>
-                    <Tooltip>
-                        <TooltipTrigger asChild>
-                            <Button
-                                size="sm"
-                                className="ml-auto"
-                                onClick={handleReset}
-                            >
-                                Reset
-                            </Button>
-                        </TooltipTrigger>
-                        <TooltipContent>
-                            Clears all progress and KPH back to defaults
-                        </TooltipContent>
-                    </Tooltip>
-                </TooltipProvider>
+                <div className="flex flex-1 items-center justify-end gap-2">
+                    <InfoDialog />
+                    <ArrowOverlayDialog />
+                    <TooltipProvider>
+                        <Tooltip>
+                            <TooltipTrigger asChild>
+                                <Button size="sm" onClick={handleReset}>
+                                    Reset
+                                </Button>
+                            </TooltipTrigger>
+                            <TooltipContent>
+                                Clears all progress and KPH back to defaults
+                            </TooltipContent>
+                        </Tooltip>
+                    </TooltipProvider>
+                </div>
             </header>
 
             <div
