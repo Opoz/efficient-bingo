@@ -1,4 +1,4 @@
-import type { Metadata, Viewport } from "next";
+import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 
@@ -40,16 +40,16 @@ export const metadata: Metadata = {
     title: "Efficient Bingo",
     description:
         "Local prototype for exploring tile/activity points contribution",
-};
-
-// Declares this page as an intentional dark theme (renders <meta
-// name="color-scheme" content="dark">). Auto-dark extensions like Dark
-// Reader check this before deciding whether to apply their own color
-// filter — without it, they don't know the page is already dark and will
-// try to "fix" it anyway, causing exactly the kind of tint/hue shift
-// reported here.
-export const viewport: Viewport = {
-    colorScheme: "dark",
+    // Dark Reader's own documented opt-out: a <meta name="darkreader-lock">
+    // makes it skip this page's color processing entirely, rather than just
+    // hinting via color-scheme (which it's free to ignore). Content value is
+    // irrelevant — Dark Reader only checks the tag's presence — but Next's
+    // metadata `other` field silently drops entries with an empty string
+    // value, so it needs a non-empty placeholder to actually render. See
+    // https://github.com/darkreader/darkreader#how-to-disable-dark-reader-on-your-website
+    other: {
+        "darkreader-lock": "1",
+    },
 };
 
 export default function RootLayout({
