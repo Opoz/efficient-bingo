@@ -97,11 +97,20 @@ export function ActivityTile({
                         // no points, so grey it and lock +1.
                         const effRem = effectiveRemaining(model, edge.goalId);
                         const dead = effRem === 0;
-                        const eff = round(
-                            effectiveContribution(model, activity, edge),
+                        const rawEff = effectiveContribution(
+                            model,
+                            activity,
+                            edge,
                         );
+                        const eff = round(rawEff);
                         const perUnit = goalPointsPerUnit(model, edge.goalId);
-                        const edgePoints = round(eff * perUnit);
+                        // Compute from the UNROUNDED contribution — rounding
+                        // eff first (e.g. 0.006 -> 0.01) then multiplying by
+                        // perUnit compounds the rounding error and can
+                        // visibly disagree with the card's actual total
+                        // (which sums unrounded values). Only round for
+                        // display, at the very end.
+                        const edgePoints = round(rawEff * perUnit);
                         return (
                             // goalId alone isn't unique here — the same item can feed more
                             // than one tile (e.g. a hilt counting toward both a boss-unique
