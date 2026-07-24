@@ -26367,7 +26367,7 @@
         {
             "name": "Dragon chainbody",
             "quantity": "1",
-            "rarity": "1/{{#expr:128*256"
+            "rarity": "1/32768"
         },
         {
             "name": "Dust rune",
@@ -26493,11 +26493,6 @@
             "name": "Dust battlestaff",
             "quantity": "1",
             "rarity": "1/4000"
-        },
-        {
-            "name": "Dragon chainbody",
-            "quantity": "1",
-            "rarity": "1/{{#expr:126*256"
         },
         {
             "name": "Dust rune",
@@ -77824,12 +77819,12 @@
             "rarity": "Always"
         },
         {
-            "name": "Oathplate shards",
+            "name": "Oathplate shards (Contract)",
             "quantity": "45",
             "rarity": "Always"
         },
         {
-            "name": "Soulflame horn",
+            "name": "Soulflame horn (Contract)",
             "quantity": "1",
             "rarity": "Always"
         },
@@ -77889,7 +77884,7 @@
             "rarity": "Always"
         },
         {
-            "name": "Yami",
+            "name": "Yami (Pet Contract)",
             "quantity": "1",
             "rarity": "1/100"
         }
@@ -83172,5 +83167,284 @@
         }
     ],
     "Webbed-winged crow": [],
-    "Wyrd": []
+    "Wyrd": [],
+    "Vyres (pickpocketing)": [
+        {
+            "name": "Blood shard",
+            "quantity": "2",
+            "rarity": "1/5000"
+        }
+    ],
+    "Tob Deathless (team rate)": [
+        {
+            "name": "Avernic defender hilt",
+            "quantity": "1",
+            "rarity": "1/21.6125"
+        },
+        {
+            "name": "Ghrazi rapier",
+            "quantity": "1",
+            "rarity": "1/86.45"
+        },
+        {
+            "name": "Sanguinesti staff (uncharged)",
+            "quantity": "1",
+            "rarity": "1/86.45"
+        },
+        {
+            "name": "Justiciar faceguard",
+            "quantity": "1",
+            "rarity": "1/86.45"
+        },
+        {
+            "name": "Justiciar chestguard",
+            "quantity": "1",
+            "rarity": "1/86.45"
+        },
+        {
+            "name": "Justiciar legguards",
+            "quantity": "1",
+            "rarity": "1/86.45"
+        },
+        {
+            "name": "Scythe of vitur (uncharged)",
+            "quantity": "1",
+            "rarity": "1/172.9"
+        }
+    ],
+    "Tob HMT Deathless (team rate)": [
+        {
+            "name": "Avernic defender hilt",
+            "quantity": "1",
+            "rarity": "1/18.2875"
+        },
+        {
+            "name": "Ghrazi rapier",
+            "quantity": "1",
+            "rarity": "1/73.15"
+        },
+        {
+            "name": "Sanguinesti staff (uncharged)",
+            "quantity": "1",
+            "rarity": "1/73.15"
+        },
+        {
+            "name": "Justiciar faceguard",
+            "quantity": "1",
+            "rarity": "1/73.15"
+        },
+        {
+            "name": "Justiciar chestguard",
+            "quantity": "1",
+            "rarity": "1/73.15"
+        },
+        {
+            "name": "Justiciar legguards",
+            "quantity": "1",
+            "rarity": "1/73.15"
+        },
+        {
+            "name": "Scythe of vitur (uncharged)",
+            "quantity": "1",
+            "rarity": "1/146.3"
+        }
+    ],
+    "CoX (33,000 points)": [
+        {
+            "name": "Dexterous prayer scroll",
+            "quantity": "1",
+            "rarity": "20/2277"
+        },
+        {
+            "name": "Arcane prayer scroll",
+            "quantity": "1",
+            "rarity": "20/2277"
+        },
+        {
+            "name": "Twisted buckler",
+            "quantity": "1",
+            "rarity": "4/2277"
+        },
+        {
+            "name": "Dragon hunter crossbow",
+            "quantity": "1",
+            "rarity": "4/2277"
+        },
+        {
+            "name": "Dinh's bulwark",
+            "quantity": "1",
+            "rarity": "3/2277"
+        },
+        {
+            "name": "Ancestral hat",
+            "quantity": "1",
+            "rarity": "3/2277"
+        },
+        {
+            "name": "Ancestral robe top",
+            "quantity": "1",
+            "rarity": "3/2277"
+        },
+        {
+            "name": "Ancestral robe bottom",
+            "quantity": "1",
+            "rarity": "3/2277"
+        },
+        {
+            "name": "Dragon claws",
+            "quantity": "1",
+            "rarity": "3/2277"
+        },
+        {
+            "name": "Elder maul",
+            "quantity": "1",
+            "rarity": "2/2277"
+        },
+        {
+            "name": "Kodai insignia",
+            "quantity": "1",
+            "rarity": "2/2277"
+        },
+        {
+            "name": "Twisted bow",
+            "quantity": "1",
+            "rarity": "2/2277"
+        }
+    ],
+    "CoX CM (57,000 points)": [
+        {
+            "name": "Dexterous prayer scroll",
+            "quantity": "1",
+            "rarity": "20/979.8"
+        },
+        {
+            "name": "Arcane prayer scroll",
+            "quantity": "1",
+            "rarity": "20/979.8"
+        },
+        {
+            "name": "Twisted buckler",
+            "quantity": "1",
+            "rarity": "4/979.8"
+        },
+        {
+            "name": "Dragon hunter crossbow",
+            "quantity": "1",
+            "rarity": "4/979.8"
+        },
+        {
+            "name": "Dinh's bulwark",
+            "quantity": "1",
+            "rarity": "3/979.8"
+        },
+        {
+            "name": "Ancestral hat",
+            "quantity": "1",
+            "rarity": "3/979.8"
+        },
+        {
+            "name": "Ancestral robe top",
+            "quantity": "1",
+            "rarity": "3/979.8"
+        },
+        {
+            "name": "Ancestral robe bottom",
+            "quantity": "1",
+            "rarity": "3/979.8"
+        },
+        {
+            "name": "Dragon claws",
+            "quantity": "1",
+            "rarity": "3/979.8"
+        },
+        {
+            "name": "Elder maul",
+            "quantity": "1",
+            "rarity": "2/979.8"
+        },
+        {
+            "name": "Kodai insignia",
+            "quantity": "1",
+            "rarity": "2/979.8"
+        },
+        {
+            "name": "Twisted bow",
+            "quantity": "1",
+            "rarity": "2/979.8"
+        }
+    ],
+    "Tombs of Amascut Solo 300": [
+        {
+            "name": "Lightbearer",
+            "quantity": "1",
+            "rarity": "7/540"
+        },
+        {
+            "name": "Osmumten's fang",
+            "quantity": "1",
+            "rarity": "7/540"
+        },
+        {
+            "name": "Elidinis' ward",
+            "quantity": "1",
+            "rarity": "3/540"
+        },
+        {
+            "name": "Masori mask",
+            "quantity": "1",
+            "rarity": "2/540"
+        },
+        {
+            "name": "Masori body",
+            "quantity": "1",
+            "rarity": "2/540"
+        },
+        {
+            "name": "Masori chaps",
+            "quantity": "1",
+            "rarity": "2/540"
+        },
+        {
+            "name": "Tumeken's shadow (uncharged)",
+            "quantity": "1",
+            "rarity": "1/540"
+        }
+    ],
+    "Tombs of Amascut Solo 450": [
+        {
+            "name": "Lightbearer",
+            "quantity": "1",
+            "rarity": "1/69.21"
+        },
+        {
+            "name": "Osmumten's fang",
+            "quantity": "1",
+            "rarity": "1/69.21"
+        },
+        {
+            "name": "Elidinis' ward",
+            "quantity": "1",
+            "rarity": "1/92.28"
+        },
+        {
+            "name": "Masori mask",
+            "quantity": "1",
+            "rarity": "1/126.89"
+        },
+        {
+            "name": "Masori body",
+            "quantity": "1",
+            "rarity": "1/126.89"
+        },
+        {
+            "name": "Masori chaps",
+            "quantity": "1",
+            "rarity": "1/126.89"
+        },
+        {
+            "name": "Tumeken's shadow (uncharged)",
+            "quantity": "1",
+            "rarity": "1/276.84"
+        }
+    ]
 }
